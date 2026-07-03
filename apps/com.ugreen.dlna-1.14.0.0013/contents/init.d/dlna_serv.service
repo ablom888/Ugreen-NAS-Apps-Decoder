@@ -1,0 +1,28 @@
+[Unit]
+Description = dlna_serv Service
+After=nginx.service entry_serv.service ugbus.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/dlna_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+ExecStartPre = /etc/sysconfig/dlna_serv.sh
+ExecStart = /var/targets/dlna_serv
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /etc/sysconfig/dlna_serv_stop.sh
+Restart = on-failure
+CPUAccounting = true
+CPUQuota = 30%
+MemoryMax = 200M
+TimeoutStopSec = 10s
+OOMScoreAdjust = 200
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE GOGC=50 USE_SYSLOG=on
+
+# 应用启动最大启动次数限制
+StartLimitInterval=120s  
+StartLimitBurst=5
+RestartSec=2 
+
+[Install]
+WantedBy = multi-user.target

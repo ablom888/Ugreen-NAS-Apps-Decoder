@@ -1,0 +1,18 @@
+[
+  {
+      "Model": [
+          "iDX6011",
+          "iDX6011 Pro"
+      ],
+      "Option": [
+          {
+              "Key": "Service.CPUQuota",
+              "Value": ""
+          },
+          {
+              "Key": "Service.MemoryMax",
+              "Value": ""
+          }
+      ]
+  }
+]
