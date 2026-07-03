@@ -1,0 +1,47 @@
+{
+    "id": "com.ugreen.netdisk",
+    "name": "com.ugreen.netdisk",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 2737,
+    "fullVersion": "v1.16.0.2737",
+    "buildTime": "26/05/09 17:32",
+    "description": "Network disk tool suite",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {},
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.37",
+        "@arco-design/web-vue": "2.58.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.13",
+        "@ugreen/arco-design-enhance": "1.0.1",
+        "@ugreen/vue-virtual-tree": "1.0.3",
+        "ugos-pro-types": "0.0.27",
+        "@ugreen/widget": "1.0.33"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [
+        {
+            "url": "./trays/netdiskTray/index.html",
+            "supports": [
+                "pc",
+                "web"
+            ],
+            "widgetId": "netdiskTray"
+        }
+    ],
+    "contextMenu": []
+}

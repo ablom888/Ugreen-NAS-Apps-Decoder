@@ -1,0 +1,27 @@
+[Unit]
+Description=NetDiskManage
+Requires=ugbus.service
+After=app_serv.service
+ConditionPathExists=/etc/sysconfig/cloud_serv.sh
+
+[Service]
+Type = notify
+NotifyAccess=all
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStartPre = /etc/sysconfig/cloud_serv.sh
+ExecStart = /var/targets/cloud_serv
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /bin/kill -s QUIT $MAINPID
+Restart = on-failure
+RestartSec=2
+CPUAccounting = true
+CPUQuota = 120%
+MemoryHigh = 50%
+TimeoutStopSec = 10s
+StartLimitBurst=5
+StartLimitInterval=120s
+OOMScoreAdjust = 100
+
+
+[Install]
+WantedBy = multi-user.target
