@@ -1,0 +1,39 @@
+{
+    "id": "com.ugreen.iscsi",
+    "name": "com.ugreen.iscsi",
+    "author": "unknown",
+    "version": 817,
+    "fullVersion": "v1.15.0.817",
+    "buildTime": "26/04/15 11:40",
+    "description": "undefined",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "width": 800,
+        "height": 600,
+        "hideTitle": true,
+        "hideIcon": true
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.7.0",
+        "ugos-pro-builder": "1.2.64",
+        "@arco-design/web-vue": "2.57.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.13",
+        "@ugreen/arco-design-enhance": "1.0.0"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

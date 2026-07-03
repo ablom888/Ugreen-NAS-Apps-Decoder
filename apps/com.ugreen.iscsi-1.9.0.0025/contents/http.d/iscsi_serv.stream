@@ -1,0 +1,5 @@
+upstream iscsi_backend{
+    server unix:/var/ugreen/iscsi_serv.sock;
+    keepalive 10;             # 各个连接自己定义数量，保持够用就行，过大会导致内存消耗
+    keepalive_timeout  300s;    # 空闲连接在池中的保活时长（HTTP模块可用的版本请确认），默认60s
+}
