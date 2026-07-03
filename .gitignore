@@ -1,0 +1,10 @@
+# Проприетарные пакеты и распакованные бинарники — не публикуем
+*.upk
+*.ugb
+packages/
+_extracted/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

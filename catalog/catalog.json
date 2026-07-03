@@ -1,0 +1,192 @@
+[
+  {
+    "appId": "com.ugreen.antivirus",
+    "version": "1.16.0.0027",
+    "name": "Security",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 171,
+    "contentsBytes": 363619373
+  },
+  {
+    "appId": "com.ugreen.cameramgr",
+    "version": "1.0.0.0677",
+    "name": "Surveillance Center",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 105,
+    "contentsBytes": 90375276
+  },
+  {
+    "appId": "com.ugreen.comic",
+    "version": "1.3.0.0015",
+    "name": "Comics",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.media.manage",
+    "files": 64,
+    "contentsBytes": 50374520
+  },
+  {
+    "appId": "com.ugreen.dlna",
+    "version": "1.14.0.0013",
+    "name": "DLNA",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 71,
+    "contentsBytes": 45916309
+  },
+  {
+    "appId": "com.ugreen.docker",
+    "version": "1.16.0.0022",
+    "name": "Docker",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 577,
+    "contentsBytes": 178834579
+  },
+  {
+    "appId": "com.ugreen.downloadmgr",
+    "version": "1.16.0.0024",
+    "name": "Downloads",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 98,
+    "contentsBytes": 181020032
+  },
+  {
+    "appId": "com.ugreen.editor",
+    "version": "1.16.0.0017",
+    "name": "TextEdit",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 328,
+    "contentsBytes": 48163463
+  },
+  {
+    "appId": "com.ugreen.iscsi",
+    "version": "1.9.0.0025",
+    "name": "SAN Manager",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 69,
+    "contentsBytes": 33461356
+  },
+  {
+    "appId": "com.ugreen.kvm",
+    "version": "1.16.0.0020",
+    "name": "Virtual Machine",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 431,
+    "contentsBytes": 104969729
+  },
+  {
+    "appId": "com.ugreen.music",
+    "version": "1.16.0.0007",
+    "name": "Music",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.media.manage",
+    "files": 238,
+    "contentsBytes": 78595628
+  },
+  {
+    "appId": "com.ugreen.netdisk",
+    "version": "1.16.0.0030",
+    "name": "Cloud Drives",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 289,
+    "contentsBytes": 89856688
+  },
+  {
+    "appId": "com.ugreen.note",
+    "version": "1.0.0.0070",
+    "name": "Notes",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 64,
+    "contentsBytes": 80085922
+  },
+  {
+    "appId": "com.ugreen.office",
+    "version": "1.16.0.0004",
+    "name": "Online Office",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 3106,
+    "contentsBytes": 1129287061
+  },
+  {
+    "appId": "com.ugreen.photo",
+    "version": "2.1.0.0106",
+    "name": "Photos",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.media.manage",
+    "files": 351,
+    "contentsBytes": 806181654
+  },
+  {
+    "appId": "com.ugreen.snapshot",
+    "version": "1.10.0.0022",
+    "name": "Snapshot",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 116,
+    "contentsBytes": 44415007
+  },
+  {
+    "appId": "com.ugreen.syncbackup",
+    "version": "1.16.0.0047",
+    "name": "Sync & Backup",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 228,
+    "contentsBytes": 209335489
+  },
+  {
+    "appId": "com.ugreen.vault",
+    "version": "1.16.0.0032",
+    "name": "Vault",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 464,
+    "contentsBytes": 46310718
+  },
+  {
+    "appId": "com.ugreen.versionmgr",
+    "version": "1.16.0.0019",
+    "name": "File Version Explorer",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.system.tools",
+    "files": 703,
+    "contentsBytes": 46158042
+  },
+  {
+    "appId": "com.ugreen.videomgr",
+    "version": "1.16.0.0027",
+    "name": "Theater",
+    "arch": "amd64",
+    "type": "native",
+    "category": "category.media.manage",
+    "files": 112,
+    "contentsBytes": 82506550
+  }
+]
