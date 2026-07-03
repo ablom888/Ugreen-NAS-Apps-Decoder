@@ -1,0 +1,23 @@
+[Unit]
+Description=Online Office Server
+After=basic.target entry_serv.service ugbus.service
+Requires=ugbus.service
+ConditionPathIsSymbolicLink=/etc/sysconfig/office_serv.sh
+
+[Service]
+Type=simple
+Environment=LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStartPre=-/etc/sysconfig/office_serv.sh start
+ExecStart=/var/targets/office_serv
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/etc/sysconfig/office_serv.sh stop
+StartLimitInterval=120s
+StartLimitBurst=5
+Restart=on-failure
+RestartSec=5
+MemoryHigh=4G
+MemoryMax=5G
+CPUQuota=200%
+
+[Install]
+WantedBy=multi-user.target

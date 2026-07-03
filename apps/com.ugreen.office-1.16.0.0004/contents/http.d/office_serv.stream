@@ -1,0 +1,5 @@
+upstream office_backend{
+    server unix:/var/ugreen/office_serv.sock;
+    keepalive 10;
+    keepalive_timeout 300s;
+}
