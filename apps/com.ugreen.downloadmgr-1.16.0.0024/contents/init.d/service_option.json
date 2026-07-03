@@ -1,0 +1,29 @@
+[
+  {
+    "Model": [
+      "iDX6011",
+      "iDX6011 Pro"
+    ],
+    "Option": [
+      {
+        "Key": "Service.CPUQuota",
+        "Value": ""
+      },
+      {
+        "Key": "Service.MemoryMax",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "Model": [
+      "DH2300"
+    ],
+    "Option": [
+      {
+        "Key": "Service.Nice",
+        "Value": "10"
+      }
+    ]
+  }
+]

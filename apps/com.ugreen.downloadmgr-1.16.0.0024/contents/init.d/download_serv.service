@@ -1,0 +1,27 @@
+[Unit]
+Description = Download Center Program
+After =basic.target entry_serv.service nginx.service ugreen-psql.service storage_serv.service ugbus.service ctl_serv.service
+Requires = ugbus.service
+ConditionPathExists=/etc/sysconfig/download_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_OUTPUT=FILE LOG_LEVEL=INFO GOGC=50 USE_SYSLOG=on
+ExecStart = /etc/sysconfig/download_serv.sh
+ExecReload = /bin/kill -s HUP $MAINPID
+Restart = on-failure
+CPUAccounting = true
+CPUQuota = 80%
+MemoryMax = 500M
+TimeoutStopSec = 90s
+OOMScoreAdjust = 100
+#在期间超过限制次数则不能再次启动。
+StartLimitInterval=120s
+#自动重启最大次数
+StartLimitBurst=5
+#每次自动重启间隔（单位s）
+RestartSec=2
+
+[Install]
+WantedBy = multi-user.target
