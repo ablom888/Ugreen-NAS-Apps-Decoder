@@ -1,0 +1,40 @@
+{
+    "id": "com.ugreen.docker",
+    "name": "com.ugreen.docker",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 3313,
+    "fullVersion": "v1.16.0.3313",
+    "buildTime": "26/05/07 16:05",
+    "description": "Docker",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "allow": [
+            "clipboard-read"
+        ],
+        "minHeight": 500
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.7.0",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.35",
+        "ugreen-design": "1.2.3",
+        "@ugreen/qt": "1.0.27",
+        "ugos-pro-types": "0.0.37"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

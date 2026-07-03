@@ -1,0 +1,26 @@
+[Unit]
+Description=DockerService
+After=sysinfo_serv.service storage_serv.service filemgr_serv.service nginx.service ugbus.service
+Requires=ugbus.service
+Wants=docker.socket
+#Before=docker.socket
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_OUTPUT=FILE LOG_LEVEL=INFO USE_SYSLOG=on  GOGC=50
+ExecStartPre=+/etc/sysconfig/docker_serv.sh
+ExecStart=/var/targets/docker_serv
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=on-failure
+CPUAccounting=true
+CPUQuota=30%
+TimeoutStopSec=60s
+StartLimitBurst=5
+StartLimitInterval=120s
+RestartSec=2
+OOMScoreAdjust=100
+
+[Install]
+WantedBy=multi-user.target
