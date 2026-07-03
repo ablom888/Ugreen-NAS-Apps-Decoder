@@ -8,3 +8,9 @@ _extracted/
 __pycache__/
 *.pyc
 .venv/
+
+# Отдельные бинарники свыше лимита GitHub 100 МБ — см. apps/EXCLUDED.md
+/apps/com.ugreen.photo-2.1.0.0106/contents/opt/onnxruntime-linux-x64-gpu-1.21.1/lib/libonnxruntime_providers_cuda.so
+/apps/com.ugreen.office-1.16.0.0004/contents/onlyoffice/documentserver/server/DocService/docservice
+/apps/com.ugreen.office-1.16.0.0004/contents/onlyoffice/documentserver/server/FileConverter/converter
+/apps/com.ugreen.antivirus-1.16.0.0027/contents/db/main.cvd
