@@ -1,0 +1,39 @@
+{
+    "id": "com.ugreen.comic",
+    "name": "comic",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 149,
+    "fullVersion": "v1.3.0.149",
+    "buildTime": "26/04/16 17:07",
+    "description": "",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "width": 1440,
+        "height": 900,
+        "hideTitle": true
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.65",
+        "@ugreen/file-selector": "1.4.19",
+        "@arco-design/web-vue": "2.56.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.7",
+        "ugos-pro-types": "0.0.37"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

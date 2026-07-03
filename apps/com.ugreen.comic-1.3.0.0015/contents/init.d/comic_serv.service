@@ -1,0 +1,24 @@
+[Unit]
+Description=Comic Manager
+After=sysinfo_serv.service storage_serv.service filemgr_serv.service nginx.service ugbus.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/comic_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_OUTPUT=FILE LOG_LEVEL=INFO USE_SYSLOG=on GOGC=50
+ExecStartPre=/etc/sysconfig/comic_serv.sh
+ExecStart=/var/targets/comic_serv
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=on-failure
+#CPUAccounting=true
+#CPUQuota=30%
+#MemoryHigh=500M
+TimeoutStopSec=30s
+TimeoutStartSec=300s
+OOMScoreAdjust=0
+
+[Install]
+WantedBy=multi-user.target
