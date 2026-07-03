@@ -1,0 +1,23 @@
+Fri Mar 21 19:42:59 2025 -> --------------------------------------
+Fri Mar 21 19:42:59 2025 -> ClamAV update process started at Fri Mar 21 19:42:59 2025
+Fri Mar 21 19:43:19 2025 -> WARNING: Can't query current.cvd.clamav.net
+Fri Mar 21 19:43:19 2025 -> WARNING: Invalid DNS reply. Falling back to HTTP mode.
+Fri Mar 21 19:43:19 2025 -> Trying to retrieve CVD header from https://database.clamav.net/daily.cvd
+Fri Mar 21 19:43:27 2025 -> OK
+Fri Mar 21 19:43:27 2025 -> daily database available for download (remote version: 27584)
+Fri Mar 21 19:44:12 2025 -> Testing database: '../db/tmp.ba59cf3de3/clamav-1856389a8ff496719d351caebfc68457.tmp-daily.cvd' ...
+Fri Mar 21 19:44:17 2025 -> Database test passed.
+Fri Mar 21 19:44:17 2025 -> daily.cvd updated (version: 27584, sigs: 2074232, f-level: 90, builder: raynman)
+Fri Mar 21 19:44:17 2025 -> Trying to retrieve CVD header from https://database.clamav.net/main.cvd
+Fri Mar 21 19:44:23 2025 -> OK
+Fri Mar 21 19:44:23 2025 -> main database available for download (remote version: 62)
+Fri Mar 21 19:45:03 2025 -> Testing database: '../db/tmp.ba59cf3de3/clamav-5acef175d99dd34812c76f0b198ca8c2.tmp-main.cvd' ...
+Fri Mar 21 19:45:08 2025 -> Database test passed.
+Fri Mar 21 19:45:08 2025 -> main.cvd updated (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+Fri Mar 21 19:45:08 2025 -> Trying to retrieve CVD header from https://database.clamav.net/bytecode.cvd
+Fri Mar 21 19:45:14 2025 -> OK
+Fri Mar 21 19:45:14 2025 -> bytecode database available for download (remote version: 335)
+Fri Mar 21 19:45:21 2025 -> Testing database: '../db/tmp.ba59cf3de3/clamav-50040ca0df9a521dcabc595b30195539.tmp-bytecode.cvd' ...
+Fri Mar 21 19:45:21 2025 -> Database test passed.
+Fri Mar 21 19:45:21 2025 -> bytecode.cvd updated (version: 335, sigs: 86, f-level: 90, builder: raynman)
+Fri Mar 21 19:45:21 2025 -> ERROR: NotifyClamd: Can't find or parse configuration file /etc/clamav/clamd.conf

@@ -1,0 +1,1 @@
+import{d as o,s as t,a as r,k as s,o as n}from"./ugos-framework-B51vBJwD.js";import{_ as a}from"./ugos-new-selector-_PUVedr0.js";const c=o({name:"Overview"}),_={class:"overview"};function i(p,d,v,m,f,l){const e=t("router-view");return n(),r("div",_,[s(e)])}const $=a(c,[["render",i],["__scopeId","data-v-e30bd185"]]);export{$ as default};

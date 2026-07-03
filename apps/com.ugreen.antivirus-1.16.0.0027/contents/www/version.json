@@ -1,0 +1,39 @@
+{
+    "id": "com.ugreen.antivirus",
+    "name": "safe-manage",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 1228,
+    "fullVersion": "v1.16.0.1228",
+    "buildTime": "26/05/14 15:21",
+    "description": "安全管家套件",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "hideTitle": true,
+        "hideIcon": true
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.7.5",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.38",
+        "@arco-design/web-vue": "2.58.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.13",
+        "@ugreen/arco-design-enhance": "1.0.1",
+        "ugos-pro-types": "0.0.29"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

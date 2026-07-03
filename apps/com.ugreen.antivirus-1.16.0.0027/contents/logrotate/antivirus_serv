@@ -1,0 +1,13 @@
+/var/ugreen/log/antivirus_serv.slog
+{
+        size 10M
+        rotate 4
+        missingok
+        notifempty
+        compress
+        delaycompress
+        sharedscripts
+        postrotate
+                /usr/lib/rsyslog/rsyslog-rotate
+        endscript
+}

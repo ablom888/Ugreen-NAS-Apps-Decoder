@@ -1,0 +1,27 @@
+[Unit]
+Description=Antivirus Server
+Requires=ugbus.service
+After=basic.target
+After=entry_serv.service
+After=nginx.service
+After=ugbus.service
+ConditionPathIsSymbolicLink=/etc/sysconfig/antivirus_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStart=/etc/sysconfig/antivirus_serv.sh
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=2
+StartLimitInterval=120s  
+StartLimitBurst=5       
+Nice=15
+OOMScoreAdjust=-400
+IOWeight=50
+IOSchedulingClass=2
+IOSchedulingPriority=7
+
+[Install]
+WantedBy=multi-user.target

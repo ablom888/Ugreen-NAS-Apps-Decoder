@@ -1,0 +1,5 @@
+upstream antivirus_backend {
+    server unix:/var/ugreen/antivirus_serv.sock;
+    keepalive 12;
+    keepalive_timeout 300s;
+}

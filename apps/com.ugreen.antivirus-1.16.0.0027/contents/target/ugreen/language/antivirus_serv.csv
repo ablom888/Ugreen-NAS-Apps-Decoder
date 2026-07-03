@@ -1,0 +1,31 @@
+Key,zh-CN,en-US,de-DE,ja-JP,fr-FR,es-ES,pt-PT,nl-NL,it-IT,ko-KR,zh-TW
+basic_info,基本信息,Basic info,Grund-Info,基本情報,Informations de base,Información básica,Informações básicas,Basisinformatie,Informazioni di base,기본 정보,基本信息
+strategy_name,策略名称,Strategy name,Name,戦略名,Nom de la stratégie,Nombre de la estrategia,Nome da estratégia,Naam van de strategie,Nome strategia,정책 이름,策略名稱
+start_time,开始时间,Start time,Startzeit,開始時間,Heure de début,Hora de inicio,Hora de início,Starttijd,Ora di inizio,시작 시간,開始時間
+duration,时长,Duration,Dauer,期間,Durée,Duración,Duração,Duur,Durata,지속 시간,時長
+risk_file_num,可疑文件数量,Suspicious files,Verdächtige Dateien,不審文書数,Fichiers suspects,Archivos sospechosos,Ficheiros suspeitos,Vermoedelijke bestanden,File sospetti,의심 파일 수량,可疑文件數量
+filename,文件名,Filename,Dateinamen,ファイル名,Nom de fichier,Nombre del archivo,Nome do ficheiro,Bestandsnaam,Nome file,파일명,文件名
+filepath,所在路径,Path,Pfad,パス,Chemin,Ruta,Caminho,Pad,Percorso,위치 경로,所在路徑
+virus_type,病毒类型,Virus type,Virustyp,ウイルスの種類,Type de virus,Tipo de virus,Tipo de vírus,Type virus,Tipo di virus,바이러스 종류,病毒類型
+status,状态,Status,Status,ステータス,Statut,Estado,Estado,Status,Stato,상태,狀態
+unhandled,未处理,Unprocessed,Unverarbeitet,未処理,Non traité,Sin procesar,Não processado,Niet verwerkt,Non elaborato,미처리,未處理
+isolated,已放入隔离区,Quarantined,In Quarantäne gestellt,隔離,Mis en quarantaine,En cuarentena,Em quarentena,In quarantaine,In quarantena,격리 구역으로 이동됨,已放入隔離區
+deleted,已删除,Deleted,Gelöscht,削除,Supprimé,Eliminado,Excluído,Verwijderd,Eliminato,삭제됨,已刪除
+trust,已放入信任区,Trusted,Vertraut,信頼ゾーンに配置,De confiance,De confianza,Confiável,Betrouwbaar,Attendibile,신뢰 구역으로 이동됨,已放入信任區
+scan_record,查杀记录,Scan records,Scan-Datensatz,検索履歴,Enregistrements d'analyse,Registros de escaneo,Registros de verificação,Scanrecords,Registri scansione,검사 기록,查殺記錄
+info,普通,Low,Normal,正常,Informationnel / Faible,Informativo / Bajo,Informativo / Baixo,Informatie / Laag,Informativo / Basso,일반,普通
+warning,警告,Warning,Warnung,警告,Avertissement,Advertencia,Aviso,Waarschuwing,Avviso,경고,警告
+critical,严重,Serious,Kritisch,重大,Critique,Grave,Sério,Kritisch,Grave,심각,嚴重
+level,级别,Level,Stufe,レベル,Niveau,Nivel,Nível,Niveau,Livello,등급,級別
+operator,操作者,User,Benutzer,オペレーター,Utilisateur,Usuario,Utilizador,Gebruiker,Utente,조작자,操作者
+log_time,日志时间,Log time,Protokollzeit,ログ時間,Heure de connexion,Hora del registro,Hora do registro,Logtijd,Ora del log,로그 시간,日誌時間
+content,内容,Content,Inhalt,内容,Contenu,Contenido,Conteúdo,Inhoud,Contenuto,내용,內容
+all,全部,All,Alle,すべて,Tout,Todo,Tudo,Alles,Tutto,전체,全部
+keywords,关键词,Keywords,Schlüsselwörter,キーワード,Mots-clés,Palabras clave,Palavras-chave,Trefwoorden,Parole chiave,키워드,關鍵詞
+time,时间,Time,Uhrzeit,時間,Temps,Tiempo,Tempo,Tijd,Tempo,시간,時間
+to,至,To,Bis,時間,À,A,A,Aan,A,부터,至
+type,类型,Type,Typ,タイプ,Type,Tipo,Tipo,Type,Tipo,유형,類型
+scan_task_name,安全管家查杀进度,Scan progress,Scan-Vorgang,セキュリティバトラーチェック進行状況,Progression du scan,Progreso del escaneo,Progresso da verificação,Scanvoortgang,Progresso scansione,스캔 진행률,安全管家查殺進度
+file_owner,文件拥有者,File owner,Besitzer,ファイル所有者,Propriétaire du fichier,Propietario del archivo,Proprietário do ficheiro,Bestandseigenaar,Proprietario file,파일 소유자,文件擁有者
+discovery_time,发现时间,Discovery time,Entdeckungszeit,発見時刻,Heure de découverte,Hora de detección,Hora da descoberta,Ontdekkingtijd,Ora di scoperta,발견 시간,發現時間
+scan_stop,扫描终止,Stopped,Gestoppt,スキャン終了,Arrêté,Detenido,Parado,Gestopt,Interrotto,검사 중단,掃描終止
