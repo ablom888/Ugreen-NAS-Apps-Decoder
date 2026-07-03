@@ -1,0 +1,120 @@
+Key,zh-CN,es-ES,fr-FR,it-IT,ko-KR,nl-NL,pt-PT,zh-TW,en-US,ja-JP,de-DE
+clarity_1080p,1080p,1080p,1080p,1080p,1080p,1080p,1080p,1080p,1080p,1080p,1080p
+clarity_2k,2K,2K,2K,2K,2K,2K,2K,2K,2K,2K,2K
+clarity_480p,480p,480p,480p,480p,480p,480p,480p,480p,480p,480p,480p
+clarity_4k,4K,4K,4K,4K,4K,4K,4K,4K,4K,4K,4K
+clarity_720p,720p,720p,720p,720p,720p,720p,720p,720p,720p,720p,720p
+clarity_8k,8K,8K,8K,8K,8K,8K,8K,8K,8K,8K,8K
+clarity_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+clarity_other,其他,Otros,Autres,Altri,기타,Andere,Outros,其他,Others,その他,Sonstiges
+country_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+country_america,美国,EE.UU.,États-Unis,Stati Uniti,미국,Amerika,América,美國,America,アメリカ,USA
+country_china,中国大陆,China Continental,Chine continentale,Cina continentale,중국 본토,China,China Continental,中國,China,中国大陸,Chinesisches Festland
+country_france,法国,Francia,France,Francia,프랑스,Frankrijk,França,法國,France,フランス,Frankreich
+country_germany,德国,Alemania,Allemagne,Germania,독일,Duitsland,Alemanha,德國,Germany,ドイツ,Deutschland
+country_hong_kong,中国香港,"Hong Kong, China","Hong Kong, Chine","Hong Kong, Cina",중국 홍콩,"Hongkong, China","Hong Kong, China",中國香港,"Hong Kong, China",中国ホンコン,"Hongkong, China"
+country_india,印度,India,Inde,India,인도,India,Índia,印度,India,インド,Indien
+country_italy,意大利,Italia,Italie,Italia,이탈리아,Italie,Itália,意大利,Italy,イタリア,Italien
+country_japan,日本,Japón,Japon,Giappone,일본,Japan,Japão,日本,Japan,日本,Japan
+country_korea,韩国,Corea del Sur,Corée du Sud,Corea del Sud,대한민국,Korea,Coreia,韓國,Korea,韓国,Südkorea
+country_other,其他,Otros,Autres,Altri,기타,Andere,Outros,其他,Other,その他,Sonstiges
+country_portugal,葡萄牙,Portugal,Portugal,Portogallo,포르투갈,Portugal,Portugal,葡萄牙,Portugal,ポルトガル,Portugal
+country_spain,西班牙,España,Espagne,Spagna,스페인,Spanje,Espanha,西班牙,Spain,スペイン,Spanien
+country_tai_wan,中国台湾,"Taiwán, China","Taïwan, Chine","Taiwan, Cina",중국 대만,"Taiwan, China","Taiwan, China",中國臺灣,"Taiwan, China",中国台湾,"Taiwan, China"
+country_thailand,泰国,Tailandia,Thaïlande,Thailandia,태국,Thailand,Tailândia,泰國,Thailand,タイ,Thailand
+country_united_kingdom,英国,Reino Unido,Royaume-Uni,Regno Unito,영국,Verenigd konkrijk,Reino Unido,英國,United Kingdom,イギリス,UK
+description_name,简体中文,Español,Français,Italiano,한국어,Nederlands,Português,繁體中文,English,日本語,Deutsch
+grading_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+grading_g,G,G,G,G,G,G,G,G,G,G,G
+grading_nr,NR,NR,NR,NR,NR,NR,NR,NR,NR,NR,NR
+grading_other,其他,Otros,Autres,Altri,기타,Andere,Outros,其他,Other,その他,Sonstiges
+grading_pg,PG,PG,PG,PG,PG,PG,PG,PG,PG,PG,PG
+grading_pg_13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13,PG-13
+grading_r,R,R,R,R,R,R,R,R,R,R,R
+grading_tv_14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14,TV-14
+grading_tv_ma,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA,TV-MA
+grading_tv_pg,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG,TV-PG
+grading_tv_y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y,TV-Y
+grading_tv_y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7,TV-Y7
+identify_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+identify_douban,智能识别,Reconocimiento AI,IA reconnue,Riconoscimento AI,AI 인식,AI herkend,Reconhecimento AI,智慧辨識,AI recognized,AI 認識,KI erkannt
+identify_nfo,NFO识别,Reconocimiento NFO,NFO reconnu,Riconoscimento NFO,NFO 인식,NFO herkend,Reconhecimento NFO,NFO識別,NFO recognized,NFO認識,NFO erkannt
+identify_tmdb,TMDB识别,Reconocimiento TMDB,TMDB reconnu,Riconoscimento TMDB,TMDB 인식,TMDB herkend,Reconhecimento TMDB,TMDB識別,TMDB recognized,TMDB認識,TMDB erkannt
+identify_unknown,未识别,No reconocido,Non reconnu,Non riconosciuto,미인식,Niet herkend,Não reconhecido,未識別,Unrecognized,未認識,Nicht erkannt
+style_action,动作,Acción,Action,Azione,액션,Actie,Ação,動作,Action,動作,Action
+style_adventure,冒险,Aventura,Aventure,Avventura,모험,Avontuur,Aventura,冒險,Adventure,冒険,Abenteuer
+style_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+style_animation,动画,Animación,Animation,Animazione,애니메이션,Animatie,Animação,動畫,Animation,アニメーション,Animation
+style_comedy,喜剧,Comedia,Comédie,Commedia,코미디,Komedie,Comédia,喜劇,Comedy,コメディ,Komödie
+style_crime,犯罪,Crimen,Crime,Crimine,범죄,Criminaliteit,Crime,犯罪,Crime,犯罪,Krimi
+style_documentary,纪录,Documental,Documentaire,Documentario,다큐멘터리,Documentair,Documentário,紀錄,Documentary,ドキュメンタリー,Doku
+style_drama,剧情,Drama,Drame,Drammatico,드라마,Drama,Drama,劇情,Drama,ドラマ,Drama
+style_family,家庭,Gamilia,Famille,Famiglia,가족,Familie,Família,家庭,Family,家族,Familie
+style_fantasy,奇幻,Fantasía,Fantasy,Fantasia,판타지,Fantasie,Fantasia,奇幻,Fantasy,ファンタジー,Fantasy
+style_history,历史,Historia,Histoire,Storia,역사,Geschiedenis,História,歷史,History,歴史,Historie
+style_horror,恐怖,Terror,Horreur,Terrore,공포,Horror,Terror,恐怖,Horror,ホラー,Horror
+style_music,音乐,Música,Musique,Musica,음악,Muziek,Música,音樂,Music,音楽,Musik
+style_mystery,悬疑,Misterio,Mystère,Mistero,미스터리,Mysterie,Mistério,懸疑,Mystery,ミステリー,Mystery
+style_other,其他,Otros,Autres,Altri,기타,Andere,Outros,其他,Other,その他,Sonstiges
+style_romance,爱情,Romance,Romance,Romance,로맨스,Romantiek,Romance,愛情,Romance,恋愛,Liebe
+style_science_fiction,科幻,Ciencia ficción,Science-fiction,Fantascienza,SF,Science Fictie,Ficção Científica,科幻,Science fiction,SF,Sci-Fi
+style_thriller,惊悚,Thriller,Thriller,Thriller,스릴러,Thriller,Thriller,驚悚,Thriller,スリラー,Thriller
+style_tv_movie,电视电影,Película / Series,Films et séries TV,Film per la TV,TV 영화,Film / Tv-serie,Filme / Série de TV,電視電影,Film / TV series,テレビ映画,Film/Serien
+style_war,战争,Guerra,Guerre,Guerra,전쟁,Oorlog,Guerra,戰爭,War,戦争,Krieg
+style_western,西部,Oeste,Western,Western,서부,Westeren,Faroeste,西部,Western,西部,Western
+type_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+type_collection,合集,Colección,Collection,Collezione,컬렉션,Collectie,Coleção,合集,Collection,コレクション,Sammlung
+type_movie,电影,Película,Film,Film,영화,Film,Filme,電影,Film,映画,Film
+type_series,剧集,Serie,Série,Serie,시리즈,Series,Série,電視劇,Series,シリーズ,Serien
+watch_status_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+watch_status_not_finished,未看完,No terminado,Pas terminé,Non finito,미완,Niet Klaar,Não terminado,未看完,Not Finished,未視聴完了,Nicht abgeschlossen
+watch_status_not_watched,未观看,No visto,Non regardé,Non visto,미시청,Niet bekeken,Não assistido,未觀看,Not Watched,未視聴,Nicht gesehen
+watch_status_watched,已观看,Visto,Regardé,Visto,시청 완료,Bekeken,Assistido,已觀看,Watched,視聴済み,Gesehen
+year_1990to2000,1990年至2000年,De 1990 a 2000,De 1990 à 2000,Dal 1990 al 2000,1990년부터 2000년까지,Jaar 1990 tot Jaar 2000,De 1990 a 2000,1990年至2000年,1990 to 2000,1990年から2000年,1990 bis 2000
+year_2000to2010,2000年至2010年,De 2000 a 2010,De 2000 à 2010,Dal 2000 al 2010,2000년부터 2010년까지,Jaar 2000 tot Jaar 2010,De 2000 a 2010,2000年至2010年,2000 to 2010,2000年から2010年,2000 bis 2010
+year_2010to2020,2021年至2020年,De 2010 a 2020,De 2010 à 2020,Dal 2010 al 2020,2010년부터 2020년까지,Jaar 2010 tot Jaar 2020,De 2010 a 2020,2021年至2020年,2010 to 2020,2010年から2020年,2010 bis 2020
+year_2021,2021年,2021,2021,2021,2021년,2021,2021,2021年,2021,2021年,2021
+year_2022,2022年,Año 2022,Année 2022,Anno 2022,2022년,Jaar 2022,Ano 2022,2022年,Year 2022,2022年,2022
+year_2023,2023年,Año 2023,Année 2023,Anno 2023,2023년,Jaar 2023,Ano 2023,2023年,Year 2023,2023年,2023
+year_all,全部,Todo,Tout,Tutto,전체,Alle,Tudo,全部,All,すべて,Alle
+year_earlier,更早,Más antiguo,Plus ancien,Più vecchio,더 이전,Eerder,Mais antigo,更早,Earlier,もっと早い,Früher
+folder_not_support_scrape,此文件夹已失效或不支持刮削，请选择其他文件夹,"Esta carpeta es inválida o no admite la extracción de datos. Por favor, seleccione otra",Ce dossier est invalide ou ne prend pas en charge le scraping. Veuillez en sélectionner un autre.,Questa cartella non è valida o non supporta la scrittura. Si prega di selezionarne un'altra,이 폴더는 사용할 수 없거나 정보 수집(스크래핑)을 지원하지 않습니다. 다른 폴더를 선택해 주세요.,Deze map is ongeldig of ondersteunt geen scraping. Selecteer een andere map.,Esta pasta é inválida ou não suporta a indexação automática. Selecione outra pasta,此資料夾已失效或不支援擷取，請選擇其他資料夾,This folder is invalid or does not support scraping. Please select another one,このフォルダは無効、またはスクレイピングに対応していません。別のフォルダを選択してください。,Dieser Ordner ist ungültig oder unterstützt kein Scraping. Bitte wählen Sie einen anderen Ordner aus.
+net_disk_not_support_scrape,暂不支持该网盘路径，请选择其他文件夹,"Esta ruta de la unidad en la nube no es compatible. Por favor, seleccione una carpeta en su dispositivo local o de las unidades en la nube compatibles",Ce chemin de stockage cloud n'est pas pris en charge. Veuillez sélectionner un dossier sur votre appareil local ou dans l'un des services cloud pris en charge.,Questo percorso dell'unità cloud non è supportato. Seleziona una cartella sul tuo dispositivo locale o dalle unità cloud supportate,이 클라우드 드라이브 경로는 지원되지 않습니다. 로컬 디바이스의 폴더를 선택하거나 지원되는 클라우드 드라이브를  선택해 주세요.,De paden van deze cloudopslag worden niet ondersteund. Selecteer een map op het lokale apparaat of van de ondersteunde cloudopslag.,Este caminho de unidade em nuvem não é suportado. Selecione uma pasta no seu dispositivo local ou das unidades em nuvem suportadas,暫不支援該網盤路徑，請選擇其他資料夾,This cloud drive path is not supported. Please select a folder on your local device or from the supported cloud drives,このクラウドストレージのパスには現在対応しておりません。他のフォルダをお選びください。,Die Pfade dieses Cloud-Speichers werden nicht unterstützt. Wählen Sie bitte einen Ordner auf Ihrem lokalen Gerät oder aus einem der unterstützten Cloud-Speicher aus.
+tv_add_max_limit_once,添加失败，单次最多添加 %v 个,No se pudo agregar. Puede agregar hasta %v elementos a la vez,Échec de l'ajout. Vous pouvez ajouter jusqu'à %v éléments à la fois,Impossibile aggiungere. È possibile aggiungere fino a %v elementi alla volta,추가 실패. 한 번에 최대 %v 개의 항목을 추가할 수 있습니다.,Toevoegen mislukt. Maximaal %v items per keer toegestaan,Falha ao adicionar. Pode adicionar até %v itens de cada vez,新增失敗，單次最多新增 %v 個,Failed to add. You can add up to %v items at a time,追加に失敗しました。一度に追加可能なのは%v個までです。,"Hinzufügen fehlgeschlagen, maximal können %v Elemente auf einmal hinzugefügt werden"
+path_access_denied,路径不存在或者无权限,La ruta no existe o sin permisos,Chemin introuvable ou accès non autorisé,Il percorso non esiste o non si dispone dei permessi necessari,경로가 존재하지 않거나 권한이 없습니다,Het pad bestaat niet of er zijn onvoldoende rechten,O caminho não existe ou não há permissão,路徑不存在或無權限,Path does not exist or no permissions,パスが存在しないか、権限がありません。,Pfad nicht vorhanden oder keine Berechtigungen für diesen Pfad
+vectortranskey_query_instruction,检索最符合查询要求的电影或电视剧，包含其片名、分类、上映日期、国家地区、风格、评分、导演、编剧、主演、演员及剧情简介等相关信息。,"Recuperar la película o serie de TV que mejor se ajuste a la consulta, incluyendo detalles como título, categoría, fecha de estreno, país/región, género, calificación, director, guionista, actores principales, reparto y sinopsis","Recherche des films ou séries correspondant le mieux à la requête, incluant leur titre, catégorie, date de sortie, pays/région, genre, note, réalisateur, scénariste, acteurs principaux, distribution et synopsis.","Recupera il film o la serie TV che meglio corrisponde alla ricerca, includendo dettagli quali titolo, categoria, data di uscita, paese/regione, genere, classificazione, regista, sceneggiatore, attori principali, cast e sinossi",검색 조건에 가장 부합하는 영화 또는 TV 드라마를 조회하며 제목 장르 개봉일 국가/지역 스타일 평점 감독 각본 주연 출연 배우 및 줄거리 등 관련 정보를 포함합니다,"Zoek de films of tv-series die het best aan de zoekcriteria voldoen, inclusief details zoals titel, categorie, releasedatum, land/regio, genre, beoordeling, regisseur, scenarioschrijver, hoofdrolspelers, acteurs en samenvatting.","Recuperar o filme ou a série de televisão que melhor corresponda à pesquisa, incluindo detalhes como título, categoria, data de lançamento, país/região, género, classificação, realizador, argumentista, atores principais, elenco e sinopse",檢索最符合查詢要求的電影或電視劇，包含其片名、分類、上映日期、國家地區、風格、評分、導演、編劇、主演、演員及劇情簡介等相關資訊。,"Retrieve the film or TV series that best matches the query, including details such as title, category, release date, country/region, genre, rating, director, screenwriter, lead actors, cast, and synopsis",クエリに最も一致する映画またはテレビシリーズを取得します。タイトル、カテゴリ、公開日、国／地域、ジャンル、評価、監督、脚本家、主演俳優、キャスト、概要などの詳細情報を含みます。,"Sucht nach Filmen oder Serien, die dem Suchbegriff am besten entsprechen, einschließlich Details wie Titel, Kategorie, Erscheinungsdatum, Land/Region, Genre, Bewertung, Regisseur, Drehbuchautor, Hauptdarsteller, Schauspieler sowie Inhaltsangabe."
+search_trans_key_movie,电影,Película,Film,Film,영화,Film,Filme,電影,Film,映画,Film
+search_trans_key_tv,电视剧,Series,Séries TV,Serie TV,TV 드라마,TV-serie,Séries de TV,電視劇,TV series,テレビドラマ,Serien
+search_trans_key_70s,70年代,Los años 70,Années 70,Gli anni '70,1970년대,Jaren 70,Anos 70,70年代,The 1970s,70年代,1970er
+search_trans_key_80s,80年代,Los años 80,Années 80,Gli anni '80,1980년대,Jaren 80,Anos 80,80年代,The 1980s,80年代,1980er
+search_trans_key_90s,90年代,Los años 90,Années 90,Gli anni '90,1990년대,Jaren 90,Anos 90,90年代,The 1990s,90年代,1990er
+search_trans_key_high_score,高分,Puntuación alta,Bien notés,Molto apprezzato,높은 평점,Hoog gewaardeerd,Muito bem cotado,高分,Highly-rated,高評価,Hohe Bewertung
+vectortranskey_title,片名,Título,Titre,Titolo,제목,Titel,Título,片名,Title,タイトル,Titel
+vectortranskey_category,分类,Categoría,Catégorie,Categorie,장르,Categorie,Categoria,分類,Category,カテゴリ,Kategorie
+vectortranskey_release_date,上映日期,Fecha de estreno,Date de sortie,Data di uscita,개봉일,Release datum,Data de lançamento,上映日期,Release date,上映日,Erscheinungsdatum
+vectortranskey_country,国家/地区,País/Región,Pays/Région,Paese/Regione,국가/지역,Land/Regio,País/Região,國家/地區,Country/Region,国/地域,Land/Region
+vectortranskey_style,风格,Género,Genre,Stile,스타일,Genre,Estilo,風格,Genre,ジャンル,Genre
+vectortranskey_score,评分,Calificación,Note,Valutazioni,평점,Beoordeling,Classificação,評分,Rating,評価,Bewertung
+vectortranskey_director,导演,Director/a,Réalisateur,Regista,감독,Regisseur,Realizador,導演,Director,監督,Regisseur
+vectortranskey_writer,编剧,Guionista,Scénariste,Sceneggiatore,각본,Scenario schrijver,Argumentista,編劇,Screenwriter,脚本家,Drehbuchautor
+vectortranskey_lead_actor,主演,Actores principales,Acteurs principaux,Attori principali,주연,Hoofdrolspelers,Atores principais,主演,Lead actors,主演,Hauptdarsteller
+vectortranskey_actor,演员,Actores / Actrices,Acteurs/Actrices,Attori/Attrici,출연 배우,Acteurs/Actrices,Atores/Atrizes,演員,Actors/Actresses,俳優,Schauspieler:innen
+vectortranskey_description,剧情简介,Introducción,Introduction,Introduzione,줄거리,Samenvatting,Introdução,劇情簡介,Introduction,あらすじ,Inhaltsangabe
+style_action_Synonyms,格斗,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Fight,カンフー/アクション,Actionfilm
+style_adventure_Synonyms,探险/历险,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Venture/Expedition,アドベンチャー,Abenteuerfilm/Expedition
+style_animation_Synonyms,卡通/动漫,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Cartoon/Anime,undefine,Animationsfilm/Anime/Zeichentrickfilm
+style_comedy_Synonyms,搞笑/幽默,undefine,undefine,undefine,undefine,undefine,undefine,undefine,undefine,笑える/ユーモア,Filmkomödie/Lustig/Witzig/Humor
+style_crime_Synonyms,刑侦,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Criminal/Violence,クライム/探偵,Kriminalfilm/Krimi-Film
+style_documentary_Synonyms,纪实,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Biopic,記録映画,Dokumentarfilm/Filmbiografie/Biopic
+style_drama_Synonyms,情节/故事,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Story/Feature film,ストーリー,Drama-Film/Filmdrama/Spielfilm
+style_family_Synonyms,亲情/家族/家人,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Parent-Child/Marriage/Family Bonding,家族愛,Familienfilm
+style_fantasy_Synonyms,魔幻/玄幻,undefine,undefine,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Fantasyfilm/Fantasy-Film/Märchenfilm
+style_history_Synonyms,历史,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Historical,undefine,Historienfilm/Historisch
+style_horror_Synonyms,鬼片/灵异,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Horror,幽霊/ポルターガイスト,Horrorfilm/Gruselfilm
+style_music_Synonyms,歌舞/音乐剧,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Musical,ミュージカル映画,Musikfilm/Musical
+style_mystery_Synonyms,推理/烧脑/谜案,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Suspense/Detective/Undercover,サスペンス,Mystery-Film/Detektivfilm
+style_romance_Synonyms,浪漫/恋爱,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Romantic,ラブロマンス,Liebesfilm/Romantisch
+style_science_fiction_Synonyms,未来科技/太空科幻,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Sci-Fi,科学技術/宇宙,Science-Fiction/Science-Fiction-Film
+style_thriller_Synonyms,紧张/刺激/惊险,undefine,undefine,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Thriller-Film/Spannend
+style_war_Synonyms,军事/战场,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Fight/Warfare/Martial/Military/Antiwar,軍事,Kriegsfilm/Anti-Kriegsfilm/Militärfilm
+style_western_Synonyms,牛仔/荒野,undefine,undefine,undefine,undefine,undefine,undefine,undefine,Cowboy/Wilderness,西部劇/カウボーイ,Westernfilm/Cowboyfilm

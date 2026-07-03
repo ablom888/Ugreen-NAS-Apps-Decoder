@@ -1,0 +1,5 @@
+upstream video_backend {
+    server unix:/var/ugreen/video_serv.sock;
+    keepalive 12;
+     keepalive_timeout  300s;
+}

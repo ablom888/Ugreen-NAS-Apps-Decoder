@@ -1,0 +1,46 @@
+# 跳过片头片尾配置信息
+[skipper_config]
+end_piece_thresh = 60
+open_piece_thresh = 5
+
+# 存量数据同步任务配置
+[stock_sync_config]
+sync_srchdb_ver = 0
+sync_vectordb_ver = 0
+
+[cloud_scrape_config]
+disable=false
+
+# 向量搜索配置
+[vector_srch_config]
+support_models = []
+#support_models = ["iDX6011", "iDX6011 Pro", "iDX6012"]
+top_k = 100
+cosine_distance = 2.0
+#   vector_score_gamma, γ 值，控制原排序骨架的“刚性”程度
+#       γ > 1.0强化头部，Top1 权威性极强
+#       γ = 1.0线性衰减，标准 Rank-based
+#       0.7 ≤ γ < 1.0头部差距压缩，TopN 更可竞争
+#       γ < 0.6BM25 骨架过软，风险增大
+vector_score_gamma = 0.7
+#   vector_score_cosine_threshold, τ 值，向量相似度阈值
+vector_score_cosine_threshold = 0.2
+#  BM25 权重 / 向量权重
+weight_bm25 = 0.7
+weight_vector = 0.3
+# query_mode = 0；旧的单SQL查询模式
+# query_mode = 1；分批走索引查询模式
+query_mode = 0
+
+# 通用搜索配置
+[srch_config]
+pgsql_disable = false
+term_disable = false
+vector_disable = true
+timeout = 10
+
+# 豆瓣图片下载 Header 配置。
+# 规则：
+[douban_header]
+User-Agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+
