@@ -13,9 +13,7 @@
   (только стандартная библиотека Python 3).
 - **`tools/upk_pack.py`** — обратный упаковщик: собирает `.upk` из распакованной папки
   (round-trip проверен побайтово; см. [`docs/REPACK.md`](docs/REPACK.md)).
-- **`tools/localization/`** — скрипты для своей локализации приложений на NAS без
-  переподписи (`ug_localize.py`, `ug_checkapp.py`; см. [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md)).
-- **`docs/`** — формат контейнера, распаковка/упаковка, разбор проверки подписи, локализация.
+- **`docs/`** — разбор формата контейнера и процессов распаковки/упаковки.
 - **`apps/`** — распакованные приложения UGOS (файлы в пределах лимита GitHub 100 МБ;
   крупные бинарники исключены — их список в [`apps/EXCLUDED.md`](apps/EXCLUDED.md)).
 - **`catalog/`** — метаданные 19 официальных приложений UGOS: манифест `config.json`,
@@ -49,21 +47,11 @@ packages/<appId>-<version>/
 
 Сами файлы `.upk` переименовываются в `<appId>-<version>.upk`.
 
-## Русская локализация на NAS в одну команду
+## Русификация NAS
 
-Готовые русские переводы всех 19 приложений — в [`localization/ru-RU/`](localization/ru-RU)
-(≈7300 строк). Установщик [`install/ugreen-localize-installer.sh`](install/ugreen-localize-installer.sh)
-спрашивает адрес и логин/пароль SSH, копирует переводы на NAS, локализует все
-установленные приложения и ставит systemd-таймер, который возвращает локализацию
-после обновлений. Переподписи пакетов не требуется.
-
-```bash
-# из корня репозитория
-./install/ugreen-localize-installer.sh -H 192.168.1.50 -u admin
-```
-
-Подробнее — [`install/README.md`](install/README.md). Как это устроено и почему
-безопасно — [`docs/SIGNING.md`](docs/SIGNING.md), [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md).
+Русификация веб-интерфейса UGREEN NAS вынесена в отдельный проект:
+**[Ugreen-NAS-Russify](https://github.com/ablom888/Ugreen-NAS-Russify)** — установщик
+русского языка в одну команду.
 
 ## Каталог приложений
 
@@ -118,8 +106,6 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/FORMAT.md`](docs/FORMAT.md) — структура контейнера `.upk` побайтово.
 - [`docs/EXTRACTION.md`](docs/EXTRACTION.md) — как работает распаковщик и как им пользоваться.
 - [`docs/REPACK.md`](docs/REPACK.md) — обратная упаковка в формат `.upk`.
-- [`docs/SIGNING.md`](docs/SIGNING.md) — как UGOS проверяет подпись и можно ли подписывать самим.
-- [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md) — своя локализация приложений на NAS без переподписи.
 
 ## Лицензия
 

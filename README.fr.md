@@ -100,8 +100,6 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/fr/FORMAT.md`](docs/fr/FORMAT.md) — structure du conteneur `.upk` octet par octet.
 - [`docs/fr/EXTRACTION.md`](docs/fr/EXTRACTION.md) — comment fonctionne l'outil de déballage et comment l'utiliser.
 - [`docs/fr/REPACK.md`](docs/fr/REPACK.md) — empaquetage inverse au format `.upk`.
-- [`docs/fr/SIGNING.md`](docs/fr/SIGNING.md) — vérification de signature dans UGOS Pro et peut-on signer soi-même.
-- [`docs/fr/LOCALIZATION.md`](docs/fr/LOCALIZATION.md) — localisation personnalisée des applications sans re-signature.
 
 ## Licence
 

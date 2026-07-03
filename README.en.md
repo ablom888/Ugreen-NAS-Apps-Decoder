@@ -100,8 +100,6 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/en/FORMAT.md`](docs/en/FORMAT.md) — the structure of the `.upk` container byte-for-byte.
 - [`docs/en/EXTRACTION.md`](docs/en/EXTRACTION.md) — how the unpacker works and how to use it.
 - [`docs/en/REPACK.md`](docs/en/REPACK.md) — reverse packing into the `.upk` format.
-- [`docs/en/SIGNING.md`](docs/en/SIGNING.md) — how UGOS verifies signatures and whether you can sign yourself.
-- [`docs/en/LOCALIZATION.md`](docs/en/LOCALIZATION.md) — add your own app localization on the NAS without re-signing.
 
 ## License
 
