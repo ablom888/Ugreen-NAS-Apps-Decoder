@@ -1,0 +1,36 @@
+{
+    "id": "com.ugreen.album-share",
+    "name": "album-share",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 317,
+    "fullVersion": "v2.0.0.317",
+    "buildTime": "26/05/22 16:57",
+    "description": "Album Share Web Or H5",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "width": 400,
+        "height": 112,
+        "hideOnClose": true
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.5.27",
+        "ugos-pro-builder": "1.2.70",
+        "@arco-design/web-vue": "2.58.0"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

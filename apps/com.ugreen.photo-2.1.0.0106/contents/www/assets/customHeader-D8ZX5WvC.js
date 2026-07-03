@@ -1,0 +1,1 @@
+import{an as a,h as o}from"./ugos-framework-sv4Py7yb.js";const u=a("customHeader",()=>{const s=o(!1),t=o(!1);return{isCustomHeader:s,setIsCustomHeader:e=>{s.value=e},isOpenAddByPhoto:t,setIsOpenAddByPhoto:e=>{t.value=e}}});export{u};

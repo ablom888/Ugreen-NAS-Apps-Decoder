@@ -1,0 +1,1515 @@
+{
+  "version": 9,
+  "threshold_config": {
+    "itm_search_threshold": 1.7,
+    "itm_custom_threshold": 1.45,
+    "itm_custom_with_label_threshold": 1.51,
+    "itm_tag_threshold": 1.55,
+    "itm_tag_top_n": 5,
+    "itm_tag_num": 4
+  },
+  "list": [
+    {
+      "cate": "证件",
+      "list": [
+        {
+          "class": "身份证",
+          "keywords": [
+            {
+              "keyword": "身份证",
+              "threshold": 1.326
+            }
+          ]
+        },
+        {
+          "class": "驾驶证",
+          "keywords": [
+            {
+              "keyword": "驾驶证",
+              "threshold": 1.346
+            }
+          ]
+        },
+        {
+          "class": "学生证",
+          "keywords": [
+            {
+              "keyword": "学生证",
+              "threshold": 1.333
+            }
+          ]
+        },
+        {
+          "class": "户口本",
+          "keywords": [
+            {
+              "keyword": "户口本",
+              "threshold": 1.334
+            }
+          ]
+        },
+        {
+          "class": "港澳通行证",
+          "keywords": [
+            {
+              "keyword": "港澳通行证",
+              "threshold": 1.32
+            }
+          ]
+        },
+        {
+          "class": "护照",
+          "keywords": [
+            {
+              "keyword": "护照",
+              "threshold": 1.3762
+            }
+          ]
+        },
+        {
+          "class": "银行卡",
+          "keywords": [
+            {
+              "keyword": "银行卡",
+              "threshold": 1.32263
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "商品码",
+      "list": [
+        {
+          "class": "条形码",
+          "keywords": [
+            {
+              "keyword": "条形码",
+              "threshold": 1.39413
+            },
+            {
+              "keyword": "条形码标签",
+              "threshold": 1.37357
+            },
+            {
+              "keyword": "条形码数字",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "Barcode",
+              "threshold": 1.38828
+            },
+            {
+              "keyword": "商品条形码",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "单据条形码",
+              "threshold": 1.347
+            },
+            {
+              "keyword": "箱子上的条形码",
+              "threshold": 1.385
+            },
+            {
+              "keyword": "包装上的条形码",
+              "threshold": 1.385
+            }
+          ]
+        },
+        {
+          "class": "二维码",
+          "keywords": [
+            {
+              "keyword": "二维码",
+              "threshold": 1.38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "交通工具",
+      "list": [
+        {
+          "class": "自行车",
+          "keywords": [
+            {
+              "keyword": "自行车",
+              "threshold": 1.393
+            },
+            {
+              "keyword": "山地自行车",
+              "threshold": 1.392
+            },
+            {
+              "keyword": "Bicycle",
+              "threshold": 1.393
+            },
+            {
+              "keyword": "复古自行车",
+              "threshold": 1.445
+            }
+          ]
+        },
+        {
+          "class": "摩托车",
+          "keywords": [
+            {
+              "keyword": "摩托车",
+              "threshold": 1.44
+            },
+            {
+              "keyword": "Motorcycle",
+              "threshold": 1.45
+            }
+          ]
+        },
+        {
+          "class": "小轿车",
+          "keywords": [
+            {
+              "keyword": "小轿车",
+              "threshold": 1.404
+            },
+            {
+              "keyword": "轿车",
+              "threshold": 1.406
+            },
+            {
+              "keyword": "停在路边的黑色小轿车",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "停在路边的红色小轿车",
+              "threshold": 1.375
+            },
+            {
+              "keyword": "停在路边的小轿车",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "停在路边的银色小轿车",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "停在路边的白色小轿车",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "停在路边的蓝色小轿车",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "停在路边的黄色小轿车",
+              "threshold": 1.35
+            },
+            {
+              "keyword": "停在路边的绿色小轿车",
+              "threshold": 1.41
+            }
+          ]
+        },
+        {
+          "class": "SUV",
+          "keywords": [
+            {
+              "keyword": "SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "Sport Utility Vehicle",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "停在门口的SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "黑色SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "停在路边的SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "白色SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "蓝色SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "银色SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "黄色SUV",
+              "threshold": 1.328
+            },
+            {
+              "keyword": "绿色SUV",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "红色SUV",
+              "threshold": 1.38
+            }
+          ]
+        },
+        {
+          "class": "公交车",
+          "keywords": [
+            {
+              "keyword": "公交车",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "bus",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "红色巴士",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "蓝色巴士",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "白色巴士",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "巴士停在路边",
+              "threshold": 1.412
+            },
+            {
+              "keyword": "巴士",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "双层巴士",
+              "threshold": 1.42
+            }
+          ]
+        },
+        {
+          "class": "火车",
+          "keywords": [
+            {
+              "keyword": "火车",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "火车在铁轨上",
+              "threshold": 1.423
+            },
+            {
+              "keyword": "绿色的火车",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "红色的火车",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "白色的火车",
+              "threshold": 1.392
+            },
+            {
+              "keyword": "一列蒸汽火车正在行驶",
+              "threshold": 1.45
+            },
+            {
+              "keyword": "一列火车，一列货运列车",
+              "threshold": 1.414
+            },
+            {
+              "keyword": "一列货运列车在铁轨上行驶，火车头是一辆现代化的电力机车",
+              "threshold": 1.47
+            },
+            {
+              "keyword": "火车车头",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "蒸汽火车",
+              "threshold": 1.41
+            }
+          ]
+        },
+        {
+          "class": "飞机",
+          "keywords": [
+            {
+              "keyword": "飞机",
+              "threshold": 1.35951
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "球类运动",
+      "list": [
+        {
+          "class": "踢足球",
+          "keywords": [
+            {
+              "keyword": "踢足球",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "几个小孩在草地上踢足球",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "1个小孩在球场踢足球",
+              "threshold": 1.37
+            },
+            {
+              "keyword": "几个足球运动员正在踢足球",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "足球场踢足球",
+              "threshold": 1.42
+            }
+          ]
+        },
+        {
+          "class": "打羽毛球",
+          "keywords": [
+            {
+              "keyword": "打羽毛球",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "两个人在球场上打羽毛球",
+              "threshold": 1.41646
+            }
+          ]
+        },
+        {
+          "class": "打网球",
+          "keywords": [
+            {
+              "keyword": "打网球",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "两个人在球场上打网球",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "网球场打网球",
+              "threshold": 1.41
+            }
+          ]
+        },
+        {
+          "class": "打乒乓球",
+          "keywords": [
+            {
+              "keyword": "打乒乓球",
+              "threshold": 1.375
+            },
+            {
+              "keyword": "乒乓球台打乒乓球",
+              "threshold": 1.378
+            }
+          ]
+        },
+        {
+          "class": "打排球",
+          "keywords": [
+            {
+              "keyword": "打排球",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "排球场打排球",
+              "threshold": 1.43
+            }
+          ]
+        },
+        {
+          "class": "打篮球",
+          "keywords": [
+            {
+              "keyword": "打篮球",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "一群人在球场打篮球",
+              "threshold": 1.44
+            },
+            {
+              "keyword": "1个人在篮球场打篮球",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "几个人在球场打篮球",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "几个篮球运动员正在打篮球",
+              "threshold": 1.414
+            },
+            {
+              "keyword": "篮球场打篮球",
+              "threshold": 1.402
+            }
+          ]
+        },
+        {
+          "class": "打高尔夫球",
+          "keywords": [
+            {
+              "keyword": "打高尔夫球",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "一个人在草地上打高尔夫球",
+              "threshold": 1.39289
+            },
+            {
+              "keyword": "一个人在草地上挥动高尔夫球杆",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "高尔夫球场打高尔夫球",
+              "threshold": 1.42
+            }
+          ]
+        },
+        {
+          "class": "打橄榄球",
+          "keywords": [
+            {
+              "keyword": "打橄榄球",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "橄榄球运动员",
+              "threshold": 1.391
+            },
+            {
+              "keyword": "一个小孩在球场上打橄榄球",
+              "threshold": 1.333
+            },
+            {
+              "keyword": "一个人在球场上玩橄榄球",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "橄榄球场打橄榄球",
+              "threshold": 1.41
+            }
+          ]
+        },
+        {
+          "class": "打棒球",
+          "keywords": [
+            {
+              "keyword": "打棒球",
+              "threshold": 1.394
+            },
+            {
+              "keyword": "一群小孩打棒球",
+              "threshold": 1.325
+            },
+            {
+              "keyword": "一个人在球场打棒球",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "一个小孩在球场打棒球",
+              "threshold": 1.405
+            },
+            {
+              "keyword": "一个棒球手准备打棒球",
+              "threshold": 1.402
+            },
+            {
+              "keyword": "棒球场打棒球",
+              "threshold": 1.423
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "税单/单据",
+      "list": [
+        {
+          "class": "税单",
+          "keywords": [
+            {
+              "keyword": "税单",
+              "threshold": 1.3154
+            }
+          ]
+        },
+        {
+          "class": "出租车发票",
+          "keywords": [
+            {
+              "keyword": "出租车发票",
+              "threshold": 1.33743
+            }
+          ]
+        },
+        {
+          "class": "发票",
+          "keywords": [
+            {
+              "keyword": "发票",
+              "threshold": 1.327
+            },
+            {
+              "keyword": "invoice",
+              "threshold": 1.3259
+            }
+          ]
+        },
+        {
+          "class": "单据",
+          "keywords": [
+            {
+              "keyword": "各种单据",
+              "threshold": 1.32
+            },
+            {
+              "keyword": "单据",
+              "threshold": 1.34
+            }
+          ]
+        },
+        {
+          "class": "购物小票",
+          "keywords": [
+            {
+              "keyword": "购物小票",
+              "threshold": 1.32
+            }
+          ]
+        },
+        {
+          "class": "汽车票",
+          "keywords": [
+            {
+              "keyword": "汽车票",
+              "threshold": 1.32
+            }
+          ]
+        },
+        {
+          "class": "收据",
+          "keywords": [
+            {
+              "keyword": "收据",
+              "threshold": 1.32
+            },
+            {
+              "keyword": "receipt",
+              "threshold": 1.35
+            }
+          ]
+        },
+        {
+          "class": "支票",
+          "keywords": [
+            {
+              "keyword": "支票",
+              "threshold": 1.295
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "自拍",
+      "list": [
+        {
+          "class": "自拍",
+          "keywords": [
+            {
+              "keyword": "自拍",
+              "threshold": 1.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "猪",
+      "list": [
+        {
+          "class": "猪",
+          "keywords": [
+            {
+              "keyword": "猪",
+              "threshold": 1.358
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "鱼",
+      "list": [
+        {
+          "class": "鱼",
+          "keywords": [
+            {
+              "keyword": "鱼",
+              "threshold": 1.34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "游泳",
+      "list": [
+        {
+          "class": "游泳",
+          "keywords": [
+            {
+              "keyword": "游泳",
+              "threshold": 1.356
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "雪景",
+      "list": [
+        {
+          "class": "雪景",
+          "keywords": [
+            {
+              "keyword": "雪景",
+              "threshold": 1.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "蟹",
+      "list": [
+        {
+          "class": "蟹",
+          "keywords": [
+            {
+              "keyword": "蟹",
+              "threshold": 1.338
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "虾",
+      "list": [
+        {
+          "class": "虾",
+          "keywords": [
+            {
+              "keyword": "虾",
+              "threshold": 1.33
+            },
+            {
+              "keyword": "几只大虾",
+              "threshold": 1.305
+            },
+            {
+              "keyword": "一盘新鲜的虾",
+              "threshold": 1.317
+            },
+            {
+              "keyword": "水中的虾",
+              "threshold": 1.332
+            },
+            {
+              "keyword": "一只透明的虾",
+              "threshold": 1.34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "蜥蜴",
+      "list": [
+        {
+          "class": "蜥蜴",
+          "keywords": [
+            {
+              "keyword": "蜥蜴",
+              "threshold": 1.336
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "文本",
+      "list": [
+        {
+          "class": "文本",
+          "keywords": [
+            {
+              "keyword": "文本",
+              "threshold": 1.435
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "兔",
+      "list": [
+        {
+          "class": "兔",
+          "keywords": [
+            {
+              "keyword": "兔",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "Rabbit",
+              "threshold": 1.37742
+            },
+            {
+              "keyword": "宠物兔",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "草地上的兔子",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "地上的兔子",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "站着的兔子",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "趴着的兔子",
+              "threshold": 1.364
+            },
+            {
+              "keyword": "灰色的兔子",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "白色的兔子",
+              "threshold": 1.377
+            },
+            {
+              "keyword": "棕色的兔子",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "黑色的兔子",
+              "threshold": 1.346
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "天空",
+      "list": [
+        {
+          "class": "天空",
+          "keywords": [
+            {
+              "keyword": "天空",
+              "threshold": 1.37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "鼠",
+      "list": [
+        {
+          "class": "鼠",
+          "keywords": [
+            {
+              "keyword": "鼠",
+              "threshold": 1.33
+            },
+            {
+              "keyword": "老鼠",
+              "threshold": 1.33544
+            },
+            {
+              "keyword": "Mouse",
+              "threshold": 1.37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "蛇",
+      "list": [
+        {
+          "class": "蛇",
+          "keywords": [
+            {
+              "keyword": "蛇",
+              "threshold": 1.32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "山脉",
+      "list": [
+        {
+          "class": "山脉",
+          "keywords": [
+            {
+              "keyword": "山脉",
+              "threshold": 1.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "沙漠",
+      "list": [
+        {
+          "class": "沙漠",
+          "keywords": [
+            {
+              "keyword": "沙漠",
+              "threshold": 1.36825
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "森林",
+      "list": [
+        {
+          "class": "森林",
+          "keywords": [
+            {
+              "keyword": "森林",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "森林 小径 高大的树木",
+              "threshold": 1.45
+            },
+            {
+              "keyword": "森林小径，两旁是茂密的树木",
+              "threshold": 1.45
+            },
+            {
+              "keyword": "一片宁静的森林，高大的树木",
+              "threshold": 1.45
+            },
+            {
+              "keyword": "一片森林，树木高大挺拔",
+              "threshold": 1.428
+            },
+            {
+              "keyword": "许多高大的树木",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "一片茂密的森林，高大的树木",
+              "threshold": 1.45
+            },
+            {
+              "keyword": "Forest",
+              "threshold": 1.43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "日出日落",
+      "list": [
+        {
+          "class": "日出日落",
+          "keywords": [
+            {
+              "keyword": "日出日落",
+              "threshold": 1.41
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "瀑布",
+      "list": [
+        {
+          "class": "瀑布",
+          "keywords": [
+            {
+              "keyword": "瀑布",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "一处壮观的瀑布景观。瀑布从高耸的岩石峭壁上倾泻而下，水流湍急，形成一道道白色的水帘",
+              "threshold": 1.47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "鸟",
+      "list": [
+        {
+          "class": "鸟",
+          "keywords": [
+            {
+              "keyword": "鸟",
+              "threshold": 1.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "美食",
+      "list": [
+        {
+          "class": "美食",
+          "keywords": [
+            {
+              "keyword": "美食",
+              "threshold": 1.404
+            },
+            {
+              "keyword": "美食蔬菜肉",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "美味佳肴",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "美食食材",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "一桌美食",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "一碟美食",
+              "threshold": 1.38
+            },
+            {
+              "keyword": "一碗美食",
+              "threshold": 1.392
+            },
+            {
+              "keyword": "一盘美食",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "一盆美食",
+              "threshold": 1.395
+            },
+            {
+              "keyword": "图片展示了一桌丰盛的中式菜肴，有几道菜",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "这是一道看起来非常美味的菜肴",
+              "threshold": 1.389
+            },
+            {
+              "keyword": "图片展示了一桌丰盛的中式菜肴",
+              "threshold": 1.381
+            },
+            {
+              "keyword": "这是一张展示美食的图片",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "面条汤",
+              "threshold": 1.39483
+            },
+            {
+              "keyword": "美味菜肴",
+              "threshold": 1.406
+            },
+            {
+              "keyword": "一道色彩鲜艳的菜肴，装在一个碗里",
+              "threshold": 1.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "猫",
+      "list": [
+        {
+          "class": "猫",
+          "keywords": [
+            {
+              "keyword": "猫",
+              "threshold": 1.407
+            },
+            {
+              "keyword": "加菲猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "布偶猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "暹罗猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "橘猫",
+              "threshold": 1.424
+            },
+            {
+              "keyword": "缅因猫",
+              "threshold": 1.416
+            },
+            {
+              "keyword": "美国短毛猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "苏格兰折耳猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "英短猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "蓝猫",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "虎斑猫",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "金渐层猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "银渐层猫",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "辛奇拉猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "狸花猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "波斯猫",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "黑色的猫",
+              "threshold": 1.33
+            },
+            {
+              "keyword": "白色的猫",
+              "threshold": 1.351
+            },
+            {
+              "keyword": "黄色的猫",
+              "threshold": 1.44
+            },
+            {
+              "keyword": "棕色的猫",
+              "threshold": 1.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "聚会",
+      "list": [
+        {
+          "class": "聚会",
+          "keywords": [
+            {
+              "keyword": "聚会",
+              "threshold": 1.3448
+            },
+            {
+              "keyword": "Party",
+              "threshold": 1.387
+            },
+            {
+              "keyword": "室内聚会",
+              "threshold": 1.387
+            },
+            {
+              "keyword": "一群人吃饭",
+              "threshold": 1.3448
+            },
+            {
+              "keyword": "一群人聚会",
+              "threshold": 1.387
+            },
+            {
+              "keyword": "一群人在户外聚会",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "围在一起聚会",
+              "threshold": 1.3945
+            },
+            {
+              "keyword": "一群人围坐在一张桌子旁聚餐",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "一群人围坐在一张桌子旁聚会",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "几个人在家里聚会",
+              "threshold": 1.387
+            },
+            {
+              "keyword": "几个男女坐在一块聚会",
+              "threshold": 1.387
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "截图",
+      "list": [
+        {
+          "class": "截图",
+          "keywords": [
+            {
+              "keyword": "截图",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "聊天截图",
+              "threshold": 1.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "婚礼",
+      "list": [
+        {
+          "class": "婚礼",
+          "keywords": [
+            {
+              "keyword": "婚礼",
+              "threshold": 1.385
+            },
+            {
+              "keyword": "一个女人穿着婚纱",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "穿婚纱的女人",
+              "threshold": 1.38335
+            },
+            {
+              "keyword": "Wedding",
+              "threshold": 1.382
+            },
+            {
+              "keyword": "一场户外婚礼，新郎穿着西装，手里牵着新娘的手，新娘穿着一件婚纱",
+              "threshold": 1.4
+            },
+            {
+              "keyword": "一场户外婚礼，新娘穿着一件婚纱，手里拿着一束花",
+              "threshold": 1.39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "滑雪",
+      "list": [
+        {
+          "class": "滑雪",
+          "keywords": [
+            {
+              "keyword": "滑雪",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "一个人在雪地上滑雪",
+              "threshold": 1.40781
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "猴",
+      "list": [
+        {
+          "class": "猴",
+          "keywords": [
+            {
+              "keyword": "猴",
+              "threshold": 1.348
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "海边",
+      "list": [
+        {
+          "class": "海边",
+          "keywords": [
+            {
+              "keyword": "海边",
+              "threshold": 1.414
+            },
+            {
+              "keyword": "一个人在海边",
+              "threshold": 1.382
+            },
+            {
+              "keyword": "一群人在海边，背景是大海",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "一群人在沙滩上，背景是大海",
+              "threshold": 1.43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "龟",
+      "list": [
+        {
+          "class": "龟",
+          "keywords": [
+            {
+              "keyword": "龟",
+              "threshold": 1.343
+            },
+            {
+              "keyword": "Turtle",
+              "threshold": 1.34305
+            },
+            {
+              "keyword": "手上的乌龟",
+              "threshold": 1.343
+            },
+            {
+              "keyword": "在草地上的乌龟",
+              "threshold": 1.343
+            },
+            {
+              "keyword": "水里的乌龟",
+              "threshold": 1.343
+            },
+            {
+              "keyword": "沙滩边的乌龟",
+              "threshold": 1.343
+            },
+            {
+              "keyword": "沙地上的乌龟",
+              "threshold": 1.343
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "狗",
+      "list": [
+        {
+          "class": "狗",
+          "keywords": [
+            {
+              "keyword": "狗",
+              "threshold": 1.39
+            },
+            {
+              "keyword": "中华田园犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "吉娃娃犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "德国牧羊犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "杜宾犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "柯基",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "沙皮犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "秋田犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "藏獒",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "贵宾犬",
+              "threshold": 1.411
+            },
+            {
+              "keyword": "金毛犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "雪纳瑞犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "博美犬",
+              "threshold": 1.43
+            },
+            {
+              "keyword": "哈士奇",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "拉布拉多",
+              "threshold": 1.426
+            },
+            {
+              "keyword": "松狮犬",
+              "threshold": 1.36
+            },
+            {
+              "keyword": "比熊犬",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "泰迪犬",
+              "threshold": 1.418
+            },
+            {
+              "keyword": "蝴蝶犬",
+              "threshold": 1.397
+            },
+            {
+              "keyword": "边境牧羊犬",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "阿拉斯加犬",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "比特犬",
+              "threshold": 1.41
+            },
+            {
+              "keyword": "萨摩耶犬",
+              "threshold": 1.42
+            },
+            {
+              "keyword": "柴犬",
+              "threshold": 1.42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "貂",
+      "list": [
+        {
+          "class": "貂",
+          "keywords": [
+            {
+              "keyword": "貂",
+              "threshold": 1.322
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "刺猬",
+      "list": [
+        {
+          "class": "刺猬",
+          "keywords": [
+            {
+              "keyword": "刺猬",
+              "threshold": 1.346
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cate": "草原",
+      "list": [
+        {
+          "class": "草原",
+          "keywords": [
+            {
+              "keyword": "草原",
+              "threshold": 1.388
+            },
+            {
+              "keyword": "一片广阔的绿色草地",
+              "threshold": 1.4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{_}from"./sliderBtn.vue_vue_type_style_index_0_scoped_dff53c0e_lang-DDZdrjwE.js";import{_ as o}from"./ugos-new-selector-DZzlbnbr.js";const p=o(_,[["__scopeId","data-v-0dc82c26"]]);export{p as _};

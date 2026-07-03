@@ -1,0 +1,49 @@
+{
+    "filename": "photo_serv",       
+    "programs": [                  
+        {
+            "name":"photo_serv",    
+            "size":"10M",         
+            "rotate":4            
+        },
+        {
+            "name":"ai_serv"
+        },
+        {
+            "name":"card_ai_sdk_tool"
+        },
+        {
+            "name":"common_ai_sdk_tool"
+        },
+        {
+            "name":"itm_image_ai_sdk_tool"
+        },
+        {
+            "name":"nlp_ai_sdk_tool"
+        },
+        {
+            "name":"ocr_ai_sdk_tool"
+        },
+        {
+            "name":"off_line_learning_ai_sdk_tool"
+        },
+        {
+            "name":"pet_ai_sdk_tool"
+        },
+        {
+            "name":"pron_ai_sdk_tool"
+        },
+        {
+            "name":"save_head_ai_sdk_tool"
+        },
+        {
+            "name":"scene_ai_sdk_tool"
+        },
+        {
+            "name":"similar_cluster_ai_sdk_tool"
+        },
+        {
+            "name":"vs_db_cluster_ai_sdk_tool"
+        }
+    ]
+}

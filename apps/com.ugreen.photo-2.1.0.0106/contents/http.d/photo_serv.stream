@@ -1,0 +1,7 @@
+upstream photo_backend {
+    server unix:/var/ugreen/photo_serv.sock;
+    keepalive 12;
+    keepalive_timeout  300s;
+}
+limit_req_zone  $binary_remote_addr zone=photo_password_ip:10m rate=5r/m;
+limit_conn_zone $binary_remote_addr zone=photo_password_conn:10m;

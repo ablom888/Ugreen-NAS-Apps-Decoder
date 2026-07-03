@@ -1,0 +1,96 @@
+server:
+  code_version: 2
+  max_multipart_memory: 20
+  url_prefix: "ugreen"
+
+database_old:
+  host: "/var/run/postgresql"
+  port: 5434
+  user: "postgres"
+  dbname: "photo"
+  sslmode: "disable"
+
+database:
+  host: "/var/run/postgresql"
+  port: 5434
+  user: "postgres"
+  dbname: "photo2"
+  sslmode: "disable"
+
+http_clinets:
+  cloud_service:
+    url: "/api/system/v3/sa/ai/models"
+    timeout: 20
+    retry: 0
+
+dbus_clients:
+  user_list:
+    dest: "com.ugreen.usermgr.user"
+    path: "/com/ugreen/usermgr/user"
+    method: "UserListDbus"
+    timeout: 5
+    retry: 0
+  isenable_homedir:
+    dest: "com.ugreen.usermgr.user"
+    path: "/com/ugreen/usermgr/user"
+    method: "IsEnableHomeDir"
+    timeout: 5
+    retry: 0
+  migrate_path:
+    dest: "com.ugreen.filemgr_serv.filemt"
+    path: "/com/ugreen/filemgr_serv/filemt"
+    method: "GetMigratedPath"
+    timeout: 5
+    retry: 0
+  thumb_update_dir:
+    dest: "com.ugreen.pro.thumbnail_serv"
+    path: "/com/ugreen/pro/thumbnail_serv"
+    method: "UpdatePhotoCustomDir"
+    timeout: 5
+    retry: 0
+  get_thumbnail:
+    dest: "com.ugreen.pro.thumbnail_serv"
+    path: "/com/ugreen/pro/thumbnail_serv"
+    method: "GetThumbnail"
+    timeout: 5
+    retry: 0
+  get_large_thumbnail:
+    dest: "com.ugreen.pro.thumbnail_serv"
+    path: "/com/ugreen/pro/thumbnail_serv"
+    method: "GetRealVideoLargeThumbnail"
+    timeout: 5
+    retry: 0
+  get_thumbnail_v2:
+    dest: "com.ugreen.pro.thumbnail_serv"
+    path: "/com/ugreen/pro/thumbnail_serv"
+    method: "GetThumbnailV2"
+    timeout: 5
+    retry: 0
+  get_large_thumbnail_v2:
+    dest: "com.ugreen.pro.thumbnail_serv"
+    path: "/com/ugreen/pro/thumbnail_serv"
+    method: "GetRealVideoLargeThumbnailV2"
+    timeout: 5
+    retry: 0
+  get_ignored_paths:
+    dest: "com.ugreen.index_serv.index"
+    path: "/com/ugreen/index_serv/index"
+    method: "GetIgnoredPaths"
+    timeout: 5
+    retry: 0
+  ignore_path_change:
+    dest: "com.ugreen.index_serv.index"
+    path: "/com/ugreen/index_serv/index"
+    method: "IgnorePathChange"
+    timeout: 5
+    retry: 0
+  register_component:
+    dest: "com.ugreen.desktop.component"
+    path: "/com/ugreen/desktop/component"
+    method: "RegisterComponent"
+    timeout: 5
+    retry: 0
+
+rpc_user_info:
+  retry: 0
+  timeout_seconds: 5

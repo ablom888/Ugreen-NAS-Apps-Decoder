@@ -1,0 +1,53 @@
+{
+    "id": "com.ugreen.albummgr",
+    "name": "com.ugreen.albummgr",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 5048,
+    "fullVersion": "v2.1.0.5048",
+    "buildTime": "26/05/22 16:57",
+    "description": "photo album kit",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "width": 1440,
+        "height": 900,
+        "frame": false,
+        "showIcon": false,
+        "hideTitle": true,
+        "headConfig": {
+            "height": 64,
+            "macX": -8,
+            "macY": -24
+        },
+        "radius": 16,
+        "help": null
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.40",
+        "@ugreen/task-center-core": "1.20251126.34",
+        "@ugreen/viewer-helper": "1.4.19",
+        "@arco-design/web-vue": "2.56.3",
+        "@ugreen/vue-virtual-tree": "1.0.3",
+        "ugos-pro-types": "0.0.39",
+        "@ugreen/thumbnail": "1.20260526.9"
+    },
+    "childApp": {
+        "share_page": "96b587d1ec80af68733a2a022e7219e6f11b4251"
+    },
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

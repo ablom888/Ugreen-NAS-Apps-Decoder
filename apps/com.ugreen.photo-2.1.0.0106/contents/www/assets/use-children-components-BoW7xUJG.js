@@ -1,0 +1,1 @@
+import{je as r}from"./index-CxvO36Tl.js";import{h as a,i,J as l}from"./ugos-framework-sv4Py7yb.js";const u=s=>{const o={},n=a([]),t=()=>{if(o.value){const e=r(o.value,s);(e.length!==n.value.length||e.toString()!==n.value.toString())&&(n.value=e)}};return i(()=>t()),l(()=>t()),{children:o,components:n}};export{u};

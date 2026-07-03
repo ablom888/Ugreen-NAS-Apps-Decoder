@@ -1,0 +1,578 @@
+{
+  "zh-CN":[{
+    "class_name": "blur_detect",
+    "model_name": "模糊照片识别",
+    "remark": "自动识别模糊照片并归类",
+    "versionRemark": "自动识别模糊照片并归类"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "场景、物体识别",
+    "remark": "自动识别照片内容，以便快速搜索",
+    "versionRemark": "自动识别照片内容，以便快速搜索"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "人物识别",
+    "remark": "识别图片、视频中的人物并归类",
+    "versionRemark": "识别图片、视频中的人物并归类"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name": "相似/重复照片识别",
+    "remark": "自动识别相似或重复的照片并归类",
+    "versionRemark": "自动识别相似或重复的照片并归类"
+  },{
+    "class_name": "nsfw",
+    "model_name": "自动识别潜在的敏感内容",
+    "remark": "自动识别涉黄图片，并在浏览时模糊显示",
+    "versionRemark": "自动识别涉黄图片，并在浏览时模糊显示"
+  },{
+    "class_name": "ocr_text",
+    "model_name": "识别照片内的文字",
+    "remark": "自动识别照片内的文字内容，以便快速搜索",
+    "versionRemark": "自动识别照片内的文字内容，以便快速搜索"
+  },{
+    "class_name": "pets_detect",
+    "model_name": "宠物识别",
+    "remark": "\"斗牛犬\", \"柴犬\",\"英国短毛猫\"等39种猫、狗品种识别",
+    "versionRemark": "\"斗牛犬\", \"柴犬\",\"英国短毛猫\"等39种猫、狗品种识别"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "以文搜图",
+    "remark": "输入一段文字描述，系统在图库中搜索与描述内容匹配的图像",
+    "versionRemark": "输入一段文字描述，系统在图库中搜索与描述内容匹配的图像"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "画面识别",
+    "remark": "图片内容理解，包含以文搜图、场景物体识别等功能",
+    "versionRemark": "图片内容理解，包含以文搜图、场景物体识别等功能",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name": "模型训练包",
+    "remark": "支持离线训练模型识别特定物体，可使用模型归类图库照片",
+    "versionRemark": "支持离线训练模型识别特定物体，可使用模型归类图库照片"
+  }],
+
+  "en-US":[{
+    "class_name": "blur_detect",
+    "model_name": "Blurry Photo Recognition",
+    "remark": "Automatically recognize and categorize blurry photos",
+    "versionRemark": "Automatically recognize and categorize blurry photos"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Scene & Object recognition",
+    "remark": "Automatically recognize scenes and objects in images for quick search",
+    "versionRemark": "Automatically recognize scenes and objects in images for quick search"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "People recognition",
+    "remark": "Recognize and categorize people in images and videos",
+    "versionRemark": "Recognize and categorize people in images and videos"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name": "Similar/Duplicate photo recognition",
+    "remark": "Automatically recognize and categorize similar or duplicate images",
+    "versionRemark": "Automatically recognize and categorize similar or duplicate images"
+  },{
+    "class_name": "nsfw",
+    "model_name": "Auto recognition of potentially sensitive contents",
+    "remark": "Automatically detect and blur images that may contain pornographic contents",
+    "versionRemark": "Automatically detect and blur images that may contain pornographic contents"
+  },{
+    "class_name": "ocr_text",
+    "model_name": "Text recognition",
+    "remark": "Automatically recognize text contents in images for quick search",
+    "versionRemark": "Automatically recognize text contents in images for quick search"
+  },{
+    "class_name": "pets_detect",
+    "model_name": "Pet recognition",
+    "remark": "Recognize 39 cat and dog breeds, including bulldog, shiba inu and British shorthair",
+    "versionRemark": "Recognize 39 cat and dog breeds, including bulldog, shiba inu and British shorthair"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "Text-based image recognition",
+    "remark": "Enter text descriptions and the system will search eligible images in library ",
+    "versionRemark": "Enter text descriptions and the system will search eligible images in library "
+  },{
+    "class_name": "image_recognition",
+    "model_name": "Image Recognition",
+    "remark": "Recognize image contents and fulfill such features as \"Text-based image recognition\", \"Scene & Object recogition\" and so on",
+    "versionRemark": "Recognize image contents and fulfill such features as \"Text-based image recognition\", \"Scene & Object recogition\" and so on",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name": "Model training package",
+    "remark": "Supports training models offline for recognizing specific objects and categorizing images",
+    "versionRemark": "Supports training models offline for recognizing specific objects and categorizing images"
+  }],
+
+  "de-DE":[{
+    "class_name": "blur_detect",
+    "model_name": "Erkennung unscharfer Fotos",
+    "remark": "Automatisches Erkennen und Kategorisieren von unscharfen Fotos",
+    "versionRemark": "Automatisches Erkennen und Kategorisieren von unscharfen Fotos"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Szenen- und Objekterkennung",
+    "remark": "Erkennt automatisch Szenen und Objekte in Bildern für eine schnelle Suche.",
+    "versionRemark": "Erkennt automatisch Szenen und Objekte in Bildern für eine schnelle Suche."
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Personenerkennung",
+    "remark": "Erkennt Personen in Bildern und Videos und kategorisiert sie.",
+    "versionRemark": "Erkennt Personen in Bildern und Videos und kategorisiert sie."
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name": "Erkennung ähnlicher/doppelter Fotos",
+    "remark": "Erkennt und gruppiert ähnliche oder doppelte Bilder.",
+    "versionRemark": "Erkennt und gruppiert ähnliche oder doppelte Bilder."
+  },{
+    "class_name": "nsfw",
+    "model_name": "Automatische Erkennung von potenziell sensiblen Inhalten",
+    "remark": "Erkennt automatisch Bilder, die möglicherweise pornografische Inhalte enthalten, und zeigt sie verschwommen an.",
+    "versionRemark": "Erkennt automatisch Bilder, die möglicherweise pornografische Inhalte enthalten, und zeigt sie verschwommen an."
+  },{
+    "class_name": "ocr_text",
+    "model_name": "Texterkennung",
+    "remark": "Erkennt automatisch Texte in Bildern für eine schnelle Suche.",
+    "versionRemark": "Erkennt automatisch Texte in Bildern für eine schnelle Suche."
+  },{
+    "class_name": "pets_detect",
+    "model_name": "Haustier-Erkennung",
+    "remark": "Erkennt 39 Katzen- und Hunderassen, z. B. Bulldogge, Shiba Inu, Britisch Kurzhaar, usw.",
+    "versionRemark": "Erkennt 39 Katzen- und Hunderassen, z. B. Bulldogge, Shiba Inu, Britisch Kurzhaar, usw."
+  },{
+    "class_name": "image_recognition",
+    "model_name": "Suche nach Texten",
+    "remark": "Geben Sie eine Textbeschreibung ein, und das System findet automatisch passende Bilder in den Mediatheken.",
+    "versionRemark": "Geben Sie eine Textbeschreibung ein, und das System findet automatisch passende Bilder in den Mediatheken."
+  },{
+    "class_name": "image_recognition",
+    "model_name": "Bilderkennung",
+    "remark": "Analysiert Bildinhalte und bietet Funktionen wie „Suche nach Texten“ und „Szenen- und Objekterkennung“.",
+    "versionRemark": "Analysiert Bildinhalte und bietet Funktionen wie „Suche nach Texten“ und „Szenen- und Objekterkennung“.",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name": "Modellausbildungspaket",
+    "remark": "Unterstützt Offline-Training von Modellen zur Erkennung bestimmter Objekte und Kategorisierung von Bildern.",
+    "versionRemark": "Unterstützt Offline-Training von Modellen zur Erkennung bestimmter Objekte und Kategorisierung von Bildern."
+  }],
+
+  "ja-JP":[{
+    "class_name": "blur_detect",
+    "model_name": "ぼやけた写真の識別",
+    "remark": "ぼやけた写真を自動的に識別して分類します",
+    "versionRemark": "ぼやけた写真を自動的に識別して分類します"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "シーンとオブジェクト識別",
+    "remark": "写真のコンテンツを自動的に識別し、素早い検索を実現します。",
+    "versionRemark": "写真のコンテンツを自動的に識別し、素早い検索を実現します。"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "人物識別",
+    "remark": "画像や動画内の人物を識別し、分類します。",
+    "versionRemark": "画像や動画内の人物を識別し、分類します。"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name": "類似・重複写真識別",
+    "remark": "類似または重複した写真を自動的に識別し、分類します。",
+    "versionRemark": "類似または重複した写真を自動的に識別し、分類します。"
+  },{
+    "class_name": "nsfw",
+    "model_name": "潜在的のセンシティブなコンテンツを自動識別",
+    "remark": "ポルノグラフィック画像を自動的に識別し、閲覧時にぼかして表示します。",
+    "versionRemark": "ポルノグラフィック画像を自動的に識別し、閲覧時にぼかして表示します。"
+  },{
+    "class_name": "ocr_text",
+    "model_name": "写真内のテキストを識別",
+    "remark": "写真内のテキストコンテンツを自動的に識別し、素早い検索を実現します。",
+    "versionRemark": "写真内のテキストコンテンツを自動的に識別し、素早い検索を実現します。"
+  },{
+    "class_name": "pets_detect",
+    "model_name": "ペット識別",
+    "remark": "「ブルドッグ」「柴犬」「ブリティッシュショートヘア」など、計 39 種類の猫や犬の品種を識別できます。",
+    "versionRemark": "「ブルドッグ」「柴犬」「ブリティッシュショートヘア」など、計 39 種類の猫や犬の品種を識別できます。"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "テキストで画像検索",
+    "remark": "文章による説明を入力すると、システムはギャラリーから説明内容に一致する画像を検索します。",
+    "versionRemark": "文章による説明を入力すると、システムはギャラリーから説明内容に一致する画像を検索します。"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "画面識別",
+    "remark": "画像コンテンツの認識：テキストからの画像検索、シーン及び物体識別などの機能を含みます。",
+    "versionRemark": "画像コンテンツの認識：テキストからの画像検索、シーン及び物体識別などの機能を含みます。",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name": "モデルトレーニングパッケージ",
+    "remark": "特定のオブジェクトを識別するためのオフラインモデル学習をサポートし、学習したモデルを使用してギャラリーの写真を分類できます。",
+    "versionRemark": "特定のオブジェクトを識別するためのオフラインモデル学習をサポートし、学習したモデルを使用してギャラリーの写真を分類できます。"
+  }],
+  "fr-FR":[{
+    "class_name": "blur_detect",
+    "model_name": "Reconnaissance de photos floues",
+    "remark": "Reconnaître automatiquement les photos floues et les classer",
+    "versionRemark": "Reconnaître automatiquement les photos floues et les classer"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Reconnaissance de scènes et d'objets",
+    "remark":  "Reconnaissance automatique du contenu des photos pour une recherche rapide",
+    "versionRemark":  "Reconnaissance automatique du contenu des photos pour une recherche rapide"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Reconnaissance de personnes",
+    "remark": "Reconnaissance et classement des personnes dans les photos et vidéos",
+    "versionRemark":  "Reconnaissance et classement des personnes dans les photos et vidéos"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name":  "Reconnaissance de photos similaires/dupliquées",
+    "remark":  "Reconnaissance et classement automatiques des photos similaires ou dupliquées",
+    "versionRemark":  "Reconnaissance et classement automatiques des photos similaires ou dupliquées"
+  },{
+    "class_name": "nsfw",
+    "model_name":  "Identification automatique de contenus sensibles potentiels",
+    "remark":  "Reconnaissance automatique des images à caractère pornographique avec affichage flouté lors de la visualisation",
+    "versionRemark":  "Reconnaissance automatique des images à caractère pornographique avec affichage flouté lors de la visualisation"
+  },{
+    "class_name": "ocr_text",
+    "model_name":  "Reconnaissance de texte dans les photos",
+    "remark":  "Reconnaissance automatique du texte dans les photos pour une recherche rapide",
+    "versionRemark":  "Reconnaissance automatique du texte dans les photos pour une recherche rapide"
+  },{
+    "class_name": "pets_detect",
+    "model_name":  "Reconnaissance des animaux domestiques",
+    "remark":  "Reconnaissance de 39 races de chats et de chiens (Bulldog, Shiba Inu, British Shorthair, etc.)",
+    "versionRemark": "Reconnaissance de 39 races de chats et de chiens (Bulldog, Shiba Inu, British Shorthair, etc.)"
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Reconnaissance d'images par texte",
+    "remark":  "Saisie d'une description textuelle pour rechercher dans la bibliothèque les images correspondant au contenu décrit",
+    "versionRemark":  "Saisie d'une description textuelle pour rechercher dans la bibliothèque les images correspondant au contenu décrit"
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Reconnaissance d'images",
+    "remark":  "Analyse du contenu des images, incluant la recherche d'images par texte, la reconnaissance de scènes et d'objets, et d'autres fonctionnalités",
+    "versionRemark":  "Analyse du contenu des images, incluant la recherche d'images par texte, la reconnaissance de scènes et d'objets, et d'autres fonctionnalités",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name":  "Package d'entraînement du modèle",
+    "remark":  "Prise en charge de l'entraînement hors ligne de modèles pour reconnaître des objets spécifiques, et possibilité d'utiliser ces modèles pour classer les photos de la bibliothèque",
+    "versionRemark":  "Prise en charge de l'entraînement hors ligne de modèles pour reconnaître des objets spécifiques, et possibilité d'utiliser ces modèles pour classer les photos de la bibliothèque"
+  }],
+  "es-ES":[{
+    "class_name": "blur_detect",
+    "model_name": "Reconocimiento de fotos borrosas",
+    "remark": "Reconocer y clasificar automáticamente las fotos borrosas",
+    "versionRemark": "Reconocer y clasificar automáticamente las fotos borrosas"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Reconocimiento de escenas y objetos",
+    "remark":  "Reconocer automáticamente el contenido de las fotos para realizar búsquedas rápidas.",
+    "versionRemark":  "Reconocer automáticamente el contenido de las fotos para realizar búsquedas rápidas."
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Reconocimiento de personas",
+    "remark": "Reconocer y categorizar personas en imágenes y vídeos.",
+    "versionRemark":  "Reconocer y categorizar personas en imágenes y vídeos."
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name":  "Reconocimiento de fotos similares/duplicadas",
+    "remark":  "Reconocer y categorizar automáticamente fotos similares o duplicadas.",
+    "versionRemark":  "Reconocer y categorizar automáticamente fotos similares o duplicadas."
+  },{
+    "class_name": "nsfw",
+    "model_name":  "Reconocimiento automático de contenido potencialmente sensible",
+    "remark":  "Detectar automáticamente y difuminar las imágenes que puedan contener contenido pornográfico.",
+    "versionRemark":  "Detectar automáticamente y difuminar las imágenes que puedan contener contenido pornográfico."
+  },{
+    "class_name": "ocr_text",
+    "model_name":  "Reconocimiento de texto",
+    "remark":  "Reconocer automáticamente el contenido de texto de las fotos para realizar búsquedas rápidas.",
+    "versionRemark":  "Reconocer automáticamente el contenido de texto de las fotos para realizar búsquedas rápidas."
+  },{
+    "class_name": "pets_detect",
+    "model_name":  "Reconocimiento de mascotas",
+    "remark":  "Reconocer 39 razas de gatos y perros, como “bulldog”, “shiba inu” y “gato británico de pelo corto”.",
+    "versionRemark": "Reconocer 39 razas de gatos y perros, como “bulldog”, “shiba inu” y “gato británico de pelo corto”."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Búsqueda de imágenes por texto",
+    "remark":  "Al introducir un texto, el sistema buscará la imagen correspondiente.",
+    "versionRemark":  "Al introducir un texto, el sistema buscará la imagen correspondiente."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Reconocimiento de imágenes",
+    "remark":  "Reconocer el contenido de las imágenes y ofrecer funciones como “reconocimiento de imágenes basado en texto”, “reconocimiento de escenas y objetos”, entre otras.",
+    "versionRemark":  "Reconocer el contenido de las imágenes y ofrecer funciones como “reconocimiento de imágenes basado en texto”, “reconocimiento de escenas y objetos”, entre otras.",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name":  "Paquete de entrenamiento de modelos",
+    "remark":  "Se admite entrenar modelos offline para reconocer objetos especificos y categorizar fotos.",
+    "versionRemark":  "Se admite entrenar modelos offline para reconocer objetos especificos y categorizar fotos."
+  }],
+  "pt-PT":[{
+    "class_name": "blur_detect",
+    "model_name": "Reconhecimento de Foto Desfocada",
+    "remark": "Reconhece e categoriza automaticamente fotos borradas.  ",
+    "versionRemark": "Reconhece e categoriza automaticamente fotos borradas.  "
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Reconhecimento de Cena & Objeto",
+    "remark":  "Reconhecimento automático do conteúdo das fotos para pesquisa rápida",
+    "versionRemark":  "Reconhecimento automático do conteúdo das fotos para pesquisa rápida"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Reconhecimento de Pessoa",
+    "remark": "Reconhecimento e categorização de pessoas em fotos e vídeos",
+    "versionRemark":  "Reconhecimento e categorização de pessoas em fotos e vídeos"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name":  "Reconhecimento de Foto Semelhante/Duplicada",
+    "remark":  "Reconhecimento automático de fotos semelhantes ou duplicadas e sua categorização",
+    "versionRemark":  "Reconhecimento automático de fotos semelhantes ou duplicadas e sua categorização"
+  },{
+    "class_name": "nsfw",
+    "model_name":  "Reconhecimento Automático de Conteúdo Potencialmente Sensível",
+    "remark":  "Reconhecimento automático de imagens de conteúdo adulto, exibindo-as desfocadas durante a visualização",
+    "versionRemark":  "Reconhecimento automático de imagens de conteúdo adulto, exibindo-as desfocadas durante a visualização"
+  },{
+    "class_name": "ocr_text",
+    "model_name":  "Reconhecimento de Texto",
+    "remark":  "Reconhecimento automático do texto nas fotos para pesquisa rápida",
+    "versionRemark":  "Reconhecimento automático do texto nas fotos para pesquisa rápida"
+  },{
+    "class_name": "pets_detect",
+    "model_name":  "Reconhecimento de Animal de Estimação",
+    "remark":  "Reconhecimento de 39 raças de gatos e cães, como \"Bulldog\", \"Shiba Inu\" e \"British Shorthair\"",
+    "versionRemark": "Reconhecimento de 39 raças de gatos e cães, como \"Bulldog\", \"Shiba Inu\" e \"British Shorthair\""
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Reconhecimento de imagens por texto",
+    "remark":  "Digite uma descrição em texto e o sistema buscará imagens na biblioteca que correspondam ao conteúdo descrito",
+    "versionRemark":  "Digite uma descrição em texto e o sistema buscará imagens na biblioteca que correspondam ao conteúdo descrito"
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Reconhecimento de Imagem",
+    "remark":  "Compreensão do conteúdo da imagem, incluindo busca por texto, reconhecimento de cenas e objetos, entre outras funcionalidades",
+    "versionRemark":  "Compreensão do conteúdo da imagem, incluindo busca por texto, reconhecimento de cenas e objetos, entre outras funcionalidades",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name":  "Pacote de Treinamento de Modelo",
+    "remark":  "Suporta treinamento offline de modelos para reconhecer objetos específicos e usar os modelos para categorizar fotos na biblioteca",
+    "versionRemark":  "Suporta treinamento offline de modelos para reconhecer objetos específicos e usar os modelos para categorizar fotos na biblioteca"
+  }],
+  "nl-NL":[{
+    "class_name": "blur_detect",
+    "model_name": "Herkenning van wazige foto's",
+    "remark": "Herken en categoriseer automatisch wazige foto's",
+    "versionRemark": "Herken en categoriseer automatisch wazige foto's"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Scène- en object herkenning",
+    "remark":  "Automatisch scènes en objecten in afbeeldingen herkennen voor snel zoeken.",
+    "versionRemark":  "Automatisch scènes en objecten in afbeeldingen herkennen voor snel zoeken."
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Mensen herkenning",
+    "remark": "Personen in afbeeldingen en video’s herkennen en categoriseren.",
+    "versionRemark":  "Personen in afbeeldingen en video’s herkennen en categoriseren."
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name":  "Herkenning van vergelijkbare/dubbele foto's",
+    "remark":  "Vergelijkbare of dubbele afbeeldingen herkennen en groeperen.",
+    "versionRemark":  "Vergelijkbare of dubbele afbeeldingen herkennen en groeperen."
+  },{
+    "class_name": "nsfw",
+    "model_name":  "Automatische herkenning van potentieel gevoelige inhoud",
+    "remark":  "Automatisch afbeeldingen herkennen die mogelijk pornografische inhoud bevatten en deze wazig weergeven.",
+    "versionRemark":  "Automatisch afbeeldingen herkennen die mogelijk pornografische inhoud bevatten en deze wazig weergeven."
+  },{
+    "class_name": "ocr_text",
+    "model_name":  "Tekst herkenning",
+    "remark":  "Automatisch tekst in afbeeldingen herkennen voor snel zoeken.",
+    "versionRemark":  "Automatisch tekst in afbeeldingen herkennen voor snel zoeken."
+  },{
+    "class_name": "pets_detect",
+    "model_name":  "Huisdier herkenning",
+    "remark":  "39 honden- en kattenrassen herkennen, zoals buldog, shiba inu, Britse korthaar, enz.",
+    "versionRemark": "39 honden- en kattenrassen herkennen, zoals buldog, shiba inu, Britse korthaar, enz."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Tekst gebaseerde beeld herkenning",
+    "remark":  "Voer een tekstbeschrijving in en het systeem vindt automatisch passende afbeeldingen in de bibliotheken.",
+    "versionRemark":  "Voer een tekstbeschrijving in en het systeem vindt automatisch passende afbeeldingen in de bibliotheken."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Afbeeldings herkenning",
+    "remark":  "Afbeeldingsinhoud analyseren en biedt functies zoals \"Tekst gebaseerde beeld herkenning\" en \"Scène- en objectherkenning\".",
+    "versionRemark":  "Afbeeldingsinhoud analyseren en biedt functies zoals \"Tekst gebaseerde beeld herkenning\" en \"Scène- en objectherkenning\".",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name":  "Model trainings pakket",
+    "remark":  "Ondersteunt offline training van modellen voor specifieke objectherkenning en categorisatie van afbeeldingen.",
+    "versionRemark":  "Ondersteunt offline training van modellen voor specifieke objectherkenning en categorisatie van afbeeldingen."
+  }],
+  "it-IT":[{
+    "class_name": "blur_detect",
+    "model_name": "Riconoscimento di foto sfocate",
+    "remark": "Riconoscere automaticamente le foto sfocate e classificarle",
+    "versionRemark": "Riconoscere automaticamente le foto sfocate e classificarle"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "Riconoscimento di scene e oggetti",
+    "remark":  "Rileva automaticamente il contenuto delle foto per una ricerca rapida.",
+    "versionRemark":  "Rileva automaticamente il contenuto delle foto per una ricerca rapida."
+  },{
+    "class_name": "face_recognition",
+    "model_name": "Riconoscimento di persone",
+    "remark": "Riconosce e cataloga le persone nelle foto e nei video.",
+    "versionRemark":  "Riconosce e cataloga le persone nelle foto e nei video."
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name":  "Riconoscimento di foto simili/duplicate",
+    "remark":  "Rileva e cataloga automaticamente le foto simili o duplicate.",
+    "versionRemark":  "Rileva e cataloga automaticamente le foto simili o duplicate."
+  },{
+    "class_name": "nsfw",
+    "model_name":  "Identificazione automatica di contenuti sensibili potenziali",
+    "remark":  "Rileva automaticamente le immagini pornografiche e le visualizza in modo sfocato durante la navigazione.",
+    "versionRemark":  "Rileva automaticamente le immagini pornografiche e le visualizza in modo sfocato durante la navigazione."
+  },{
+    "class_name": "ocr_text",
+    "model_name":  "Riconoscimento del testo nelle foto",
+    "remark":  "Rileva automaticamente il testo nelle foto per una ricerca rapida.",
+    "versionRemark":  "Rileva automaticamente il testo nelle foto per una ricerca rapida."
+  },{
+    "class_name": "pets_detect",
+    "model_name":  "Riconoscimento degli animali domestici",
+    "remark":  "Riconosce 39 razze di cani e gatti, inclusi \"Bulldog\", \"Shiba Inu\" e \"Gatto British Shorthair\", ecc.",
+    "versionRemark": "Riconosce 39 razze di cani e gatti, inclusi \"Bulldog\", \"Shiba Inu\" e \"Gatto British Shorthair\", ecc."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Riconoscimento di immagini basato sul testo",
+    "remark":  "Inserisci una descrizione testuale e il sistema cercherà nella libreria immagini quelle che corrispondono al contenuto descritto.",
+    "versionRemark":  "Inserisci una descrizione testuale e il sistema cercherà nella libreria immagini quelle che corrispondono al contenuto descritto."
+  },{
+    "class_name": "image_recognition",
+    "model_name":  "Riconoscimento delle immagini",
+    "remark":  "L'analisi del contenuto delle immagini, che include funzioni come la ricerca di immagini tramite testo e il riconoscimento di oggetti e scene.",
+    "versionRemark":  "L'analisi del contenuto delle immagini, che include funzioni come la ricerca di immagini tramite testo e il riconoscimento di oggetti e scene.",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name":  "Pacchetto di addestramento del modello",
+    "remark":  "Supporta l'addestramento offline di modelli per riconoscere oggetti specifici e catalogare le foto della libreria.",
+    "versionRemark":  "Supporta l'addestramento offline di modelli per riconoscere oggetti specifici e catalogare le foto della libreria."
+  }],
+  "ko-KR": [{
+      "class_name": "blur_detect",
+      "model_name": "흐릿한 사진 인식",
+      "remark": "흐릿한 사진을 자동으로 인식하여 분류합니다",
+      "versionRemark": "흐릿한 사진을 자동으로 인식하여 분류합니다"
+    },{
+      "class_name": "common_object_detection",
+      "model_name": "장면 및 사물 인식",
+      "remark": "사진 화면을 자동으로 인식하여 빠르게 검색할 수 있습니다.",
+      "versionRemark": "사진 화면을 자동으로 인식하여 빠르게 검색할 수 있습니다."
+    },{
+      "class_name": "face_recognition",
+      "model_name": "인물 인식",
+      "remark": "사진/동영상 속 인물을 인식하고 분류합니다.",
+      "versionRemark": "사진/동영상 속 인물을 인식하고 분류합니다."
+    },{
+      "class_name": "imgfeature_extract",
+      "model_name": "유사/중복 사진 인식",
+      "remark": "유사하거나 중복된 사진을 자동으로 인식하여 분류합니다.",
+      "versionRemark": "유사하거나 중복된 사진을 자동으로 인식하여 분류합니다."
+    },{
+      "class_name": "nsfw",
+      "model_name": "잠재적인 민감 콘텐츠 자동 인식",
+      "remark": "음란 이미지를 자동으로 인식하여, 열람 시 블러 처리됩니다.",
+      "versionRemark": "음란 이미지를 자동으로 인식하여, 열람 시 블러 처리됩니다."
+    },{
+      "class_name": "ocr_text",
+      "model_name": "사진 내 문자 인식",
+      "remark": "사진 속 문자를 자동으로 인식하여 빠르게 검색할 수 있습니다.",
+      "versionRemark": "사진 속 문자를 자동으로 인식하여 빠르게 검색할 수 있습니다."
+    },{
+      "class_name": "pets_detect",
+      "model_name": "반려동물 인식",
+      "remark": "'불도그', '시바견', '브리티시 쇼트헤어' 등 39종의 고양이/강아지 품종을 인식합니다.",
+      "versionRemark": "'불도그', '시바견', '브리티시 쇼트헤어' 등 39종의 고양이/강아지 품종을 인식합니다."
+    },{
+      "class_name": "image_recognition",
+      "model_name": "텍스트 기반 이미지 인식",
+      "remark": "입력한 텍스트와 일치하는 사진을 갤러리에서 검색합니다.",
+      "versionRemark": "입력한 텍스트와 일치하는 사진을 갤러리에서 검색합니다."
+    },{
+      "class_name": "image_recognition",
+      "model_name": "화면 인식",
+      "remark": "사진 속 콘텐츠를 이해하여 텍스트로 이미지를 검색하거나, 사물 및 장소를 인식하는 기능 등을 지원합니다.",
+      "versionRemark": "사진 속 콘텐츠를 이해하여 텍스트로 이미지를 검색하거나, 사물 및 장소를 인식하는 기능 등을 지원합니다.",
+      "parentModel":true
+    },{
+      "class_name": "model_training",
+      "model_name": "모델 학습 패키지",
+      "remark": "오프라인 상태에서 모델을 훈련시켜 특정 사물을 인식할 수 있도록 지원하며, 해당 모델로 갤러리 사진을 분류할 수 있습니다.",
+      "versionRemark": "오프라인 상태에서 모델을 훈련시켜 특정 사물을 인식할 수 있도록 지원하며, 해당 모델로 갤러리 사진을 분류할 수 있습니다."
+    }
+  ],
+  "zh-TW":[{
+    "class_name": "blur_detect",
+    "model_name": "模糊照片識別",
+    "remark": "自動辨識模糊照片並歸類",
+    "versionRemark": "自動辨識模糊照片並歸類"
+  },{
+    "class_name": "common_object_detection",
+    "model_name": "場景、物體識別",
+    "remark": "自動辨識照片內容，以便快速搜尋",
+    "versionRemark": "自動辨識照片內容，以便快速搜尋"
+  },{
+    "class_name": "face_recognition",
+    "model_name": "人物識別",
+    "remark": "識別圖片、影片中的人物並歸類",
+    "versionRemark": "識別圖片、影片中的人物並歸類"
+  },{
+    "class_name": "imgfeature_extract",
+    "model_name": "相似/重複照片識別",
+    "remark": "自動辨識相似或重複的照片並歸類",
+    "versionRemark": "自動辨識相似或重複的照片並歸類"
+  },{
+    "class_name": "nsfw",
+    "model_name": "自動識別潛在的敏感內容",
+    "remark": "自動偵測含有色情露骨內容的圖片並予以模糊處理",
+    "versionRemark": "自動偵測含有色情露骨內容的圖片並予以模糊處理"
+  },{
+    "class_name": "ocr_text",
+    "model_name": "識別照片內的文字",
+    "remark": "自動辨識照片內的文字內容，以便快速搜尋",
+    "versionRemark": "自動辨識照片內的文字內容，以便快速搜尋"
+  },{
+    "class_name": "pets_detect",
+    "model_name": "寵物識別",
+    "remark": "「鬥牛犬」、「柴犬」、「英國短毛貓」等39種貓、狗品種辨識",
+    "versionRemark": "「鬥牛犬」、「柴犬」、「英國短毛貓」等39種貓、狗品種辨識"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "以文搜圖",
+    "remark": "輸入一段文字描述，系統在圖庫中搜尋與描述內容相符的圖像",
+    "versionRemark": "輸入一段文字描述，系統在圖庫中搜尋與描述內容相符的圖像"
+  },{
+    "class_name": "image_recognition",
+    "model_name": "畫面識別",
+    "remark": "圖片內容理解，包含以文搜圖、場景物體辨識等功能",
+    "versionRemark": "圖片內容理解，包含以文搜圖、場景物體辨識等功能",
+    "parentModel":true
+  },{
+    "class_name": "model_training",
+    "model_name": "模型訓練包",
+    "remark": "支援離線訓練模型辨識特定物體，可使用模型歸類圖庫照片",
+    "versionRemark": "支援離線訓練模型辨識特定物體，可使用模型歸類圖庫照片"
+  }]
+}

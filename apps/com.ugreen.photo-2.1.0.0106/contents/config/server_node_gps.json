@@ -1,0 +1,22 @@
+[
+  {
+    "code": "cn",
+    "latitude": 39.9057,
+    "longitude": 116.3913
+  },
+ {
+    "code": "us",
+    "latitude": 38.8951,
+    "longitude": -77.0365
+  },
+  {
+    "code": "de",
+    "latitude": 52.517,
+    "longitude": 13.3889
+  },
+  {
+    "code": "jp",
+    "latitude": 35.6822,
+    "longitude": 139.7622
+  }
+]

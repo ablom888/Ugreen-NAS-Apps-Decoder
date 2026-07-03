@@ -1,0 +1,26 @@
+[Unit]
+Description=AI Service
+After=storage_serv.service ctl_serv.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/ai_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+UMask=0007
+Environment= LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on GOGC=50
+ExecStart=/etc/sysconfig/ai_serv.sh start
+ExecReload=/etc/sysconfig/ai_serv.sh restart
+ExecStop=/etc/sysconfig/ai_serv.sh stop
+Restart=on-failure
+StartLimitInterval=120s
+StartLimitBurst=5
+Nice=15
+CPUAccounting=true
+CPUQuota=200%
+MemoryHigh=50%
+RestartSec=2
+OOMScoreAdjust=100
+
+[Install]
+WantedBy=multi-user.target

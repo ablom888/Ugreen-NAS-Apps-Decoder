@@ -1,0 +1,27 @@
+[Unit]
+Description=Photo Service
+After=storage_serv.service ctl_serv.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/photo_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+UMask=0007
+Environment= LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on GOGC=50
+ExecStartPre=/etc/sysconfig/photo_serv.sh start
+ExecStart=/var/targets/photo_serv
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+ExecStopPost=/etc/sysconfig/photo_serv.sh stop
+Restart=on-failure
+TimeoutStopSec=20s
+StartLimitInterval=120s
+StartLimitBurst=5
+CPUAccounting=true
+MemoryHigh=50%
+RestartSec=2
+OOMScoreAdjust=100
+
+[Install]
+WantedBy=multi-user.target

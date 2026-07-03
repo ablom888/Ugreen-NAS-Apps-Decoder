@@ -1,0 +1,1 @@
+function a(e,t){if(e.length!==t.length)return!1;const r=[...e].sort(),n=[...t].sort();return r.every((s,o)=>s===n[o])}function l(e,t){if(e.length!==t.length)return!1;const r=new Set(e);return t.every(n=>r.has(n))}export{a,l as b};
