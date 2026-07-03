@@ -1,0 +1,26 @@
+/var/ugreen/log/snapshot_serv.slog
+/var/ugreen/log/snapshot_gin.slog
+/var/ugreen/log/snapshot_tool_exist_snapshot.slog
+/var/ugreen/log/snapshot_tool_migrate_home.slog
+/var/ugreen/log/snapshot_tool_migrate_users.slog
+{
+        # 超过10M轮转
+        size 10M
+        # 轮转4个文件，超过则删除
+        rotate 4
+        # 轮转的日志文件不存在，不要报错，直接跳过这个文件继续处理下一个
+        missingok
+        # 空文件不轮转
+        notifempty
+        # 是否压缩gzip
+        compress
+        # 延迟到下一次压缩
+        delaycompress
+        # 确保多个日志文件只执行一次postrotate
+        sharedscripts
+        # 轮转之后执行
+        postrotate
+                # rsyslog重新打开文件句柄
+                /usr/lib/rsyslog/rsyslog-rotate
+        endscript
+}

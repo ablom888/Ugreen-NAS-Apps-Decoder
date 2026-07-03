@@ -1,0 +1,28 @@
+[Unit]
+Description=Snapshot Manager
+After=sysinfo_serv.service storage_serv.service filemgr_serv.service nginx.service ugbus.service
+Requires=ugbus.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_OUTPUT=FILE LOG_LEVEL=INFO GOGC=50 USE_SYSLOG=on
+ExecStartPre=/etc/sysconfig/snapshot_serv.sh
+ExecStart=/var/targets/snapshot_serv
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=on-failure
+#CPUAccounting=true
+#CPUQuota=30%
+# MemoryHigh=500M
+TimeoutStopSec=30s
+OOMScoreAdjust=0
+#在期间超过限制次数则不能再次启动。
+StartLimitInterval=120s
+#自动重启最大次数
+StartLimitBurst=5
+#每次自动重启间隔（单位s）
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

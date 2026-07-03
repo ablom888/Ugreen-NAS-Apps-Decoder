@@ -1,0 +1,43 @@
+{
+    "id": "com.ugreen.snapshot",
+    "name": "snapshot",
+    "author": "unknown",
+    "version": 999,
+    "fullVersion": "v1.9.0.999",
+    "buildTime": "26/05/14 10:36",
+    "description": "Snapshot",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "frame": false,
+        "background": "#f5f5f5"
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.7.5",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.4.19",
+        "@ugreen/task-center-core": "1.20260526.9",
+        "@ugreen/media-viewer2": "1.2025112610.5",
+        "@ugreen/viewer-helper": "1.6.2",
+        "@arco-design/web-vue": "2.58.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.13",
+        "@ugreen/arco-design-enhance": "1.0.1",
+        "ugos-pro-types": "0.0.26",
+        "@ugreen/thumbnail": "1.20260422.7"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}
