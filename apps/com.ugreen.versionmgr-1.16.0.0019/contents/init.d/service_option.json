@@ -1,0 +1,26 @@
+[
+    {
+        "Model": [
+            "iDX6012",
+            "iDX6011"
+        ],
+        "Option": [
+            {
+                "Key": "Service.MemoryHigh",
+                "Value": "30%"
+            }
+        ]
+    },
+    {
+        "Model": [
+            "DH2300",
+            "DH4300"
+        ],
+        "Option":[
+            {
+                "Key":"Service.Nice",
+                "Value":"10"
+            }
+        ]
+    }
+]
