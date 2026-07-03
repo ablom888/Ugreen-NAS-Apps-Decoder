@@ -1,0 +1,42 @@
+{
+    "id": "com.ugreen.note",
+    "name": "@note/web",
+    "author": "",
+    "version": 626,
+    "fullVersion": "v0.1.0.626",
+    "buildTime": "26/06/03 18:24",
+    "description": "",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "hideTitle": true,
+        "frame": false,
+        "radius": 16,
+        "headConfig": {
+            "height": 52
+        }
+    },
+    "widgets": [],
+    "trays": [],
+    "contextMenu": [],
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "2.0.13",
+        "@ugreen/file-selector": "1.5.40",
+        "@ugreen/media-viewer2": "1.20260526.9",
+        "@ugreen/viewer-helper": "1.6.2",
+        "@arco-design/web-vue": "2.58.0"
+    },
+    "childApp": {}
+}
