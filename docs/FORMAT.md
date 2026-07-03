@@ -1,5 +1,7 @@
 # Формат пакета UGREEN NAS `.upk` (UGREEN-PKG-V2-FORMAT)
 
+**🌐 Язык:** [English](en/FORMAT.md) · [中文](zh/FORMAT.md) · [हिन्दी](hi/FORMAT.md) · [Español](es/FORMAT.md) · [Français](fr/FORMAT.md) · **Русский**
+
 Установочный пакет приложения UGOS Pro — это **не** обычный zip/tar. Это самодельный
 текстово-бинарный контейнер с криптоподписями и многослойной полезной нагрузкой.
 

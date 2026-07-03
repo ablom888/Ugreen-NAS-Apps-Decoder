@@ -1,5 +1,7 @@
 # Распаковка пакетов UGREEN `.upk`
 
+**🌐 Язык:** [English](en/EXTRACTION.md) · [中文](zh/EXTRACTION.md) · [हिन्दी](hi/EXTRACTION.md) · [Español](es/EXTRACTION.md) · [Français](fr/EXTRACTION.md) · **Русский**
+
 ## Требования
 
 - Python 3.8+ (только стандартная библиотека: `gzip`, `lzma`, `bz2`, `tarfile`).

@@ -1,7 +1,11 @@
 # UGREEN NAS Apps Decoder
 
+**🌐 Язык:** [English](README.en.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [Français](README.fr.md) · **Русский**
+
 Инструмент и документация для распаковки установочных пакетов приложений
 **UGREEN NAS (UGOS Pro)** — файлов формата `.upk` (`UGREEN-PKG-V2-FORMAT`).
+
+📦 **Оригинальные пакеты `.upk` — в разделе [Releases](https://github.com/ablom888/Ugreen-NAS-Apps-Decoder/releases/tag/packages-v1).**
 
 Репозиторий содержит:
 
@@ -17,7 +21,8 @@
 
 > ⚠️ Всё содержимое приложений — проприетарное ПО UGREEN, опубликовано для целей
 > совместимости и анализа. Оригинальные `.upk` (1.2 ГБ) приложены к
-> [релизу](../../releases). Отдельные бинарники свыше лимита GitHub в 100 МБ
+> [релизу `packages-v1`](https://github.com/ablom888/Ugreen-NAS-Apps-Decoder/releases/tag/packages-v1).
+> Отдельные бинарники свыше лимита GitHub в 100 МБ
 > в `apps/` не входят — их перечень в [`apps/EXCLUDED.md`](apps/EXCLUDED.md);
 > собрать полный набор можно, распаковав `.upk` из релиза инструментом `tools/`.
 
@@ -77,10 +82,24 @@ packages/<appId>-<version>/
 (**gzip → tar → `<appId>.ugb` → xz → tar →** дерево приложения).
 Подробный разбор — в [`docs/FORMAT.md`](docs/FORMAT.md).
 
+## Releases (загрузки)
+
+Оригинальные установочные пакеты приложений выложены как ассеты релиза:
+
+- **Страница релизов:** <https://github.com/ablom888/Ugreen-NAS-Apps-Decoder/releases>
+- **Релиз `packages-v1`** (19 файлов `.upk`, ~1.2 ГБ): <https://github.com/ablom888/Ugreen-NAS-Apps-Decoder/releases/tag/packages-v1>
+
+Скачать все пакеты через GitHub CLI:
+
+```bash
+gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --pattern '*.upk'
+```
+
 ## Документация
 
 - [`docs/FORMAT.md`](docs/FORMAT.md) — структура контейнера `.upk` побайтово.
 - [`docs/EXTRACTION.md`](docs/EXTRACTION.md) — как работает распаковщик и как им пользоваться.
+- [`docs/REPACK.md`](docs/REPACK.md) — обратная упаковка в формат `.upk`.
 
 ## Лицензия
 

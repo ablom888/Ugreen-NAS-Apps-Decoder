@@ -1,5 +1,7 @@
 # Обратная упаковка в формат UGREEN `.upk`
 
+**🌐 Язык:** [English](en/REPACK.md) · [中文](zh/REPACK.md) · [हिन्दी](hi/REPACK.md) · [Español](es/REPACK.md) · [Français](fr/REPACK.md) · **Русский**
+
 `tools/upk_pack.py` собирает пакет `.upk` (UGREEN-PKG-V2-FORMAT) обратно из папки,
 которую создал `upk_extract.py`.
 
