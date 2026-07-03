@@ -1,5 +1,7 @@
 # Проверка подписи в UGOS Pro: как устроена и можно ли подписывать самим
 
+**🌐 Язык:** [English](en/SIGNING.md) · [中文](zh/SIGNING.md) · [हिन्दी](hi/SIGNING.md) · [Español](es/SIGNING.md) · [Français](fr/SIGNING.md) · **Русский**
+
 Разбор сделан по прошивке `firmware_image-1.16.0.89` (UGOS Pro, Debian 12, amd64).
 
 ## Кто проверяет пакеты

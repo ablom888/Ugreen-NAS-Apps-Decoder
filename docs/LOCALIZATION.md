@@ -1,5 +1,7 @@
 # Своя локализация приложений UGOS без переподписи
 
+**🌐 Язык:** [English](en/LOCALIZATION.md) · [中文](zh/LOCALIZATION.md) · [हिन्दी](hi/LOCALIZATION.md) · [Español](es/LOCALIZATION.md) · [Français](fr/LOCALIZATION.md) · **Русский**
+
 Проверка подписи в UGOS выполняется **только при установке** пакета `.upk`
 (подробнее — [SIGNING.md](SIGNING.md)). После установки приложение работает из
 папки на диске, поэтому свой язык добавляется **правкой файлов установленного

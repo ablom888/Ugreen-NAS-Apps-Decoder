@@ -49,6 +49,22 @@ packages/<appId>-<version>/
 
 Сами файлы `.upk` переименовываются в `<appId>-<version>.upk`.
 
+## Русская локализация на NAS в одну команду
+
+Готовые русские переводы всех 19 приложений — в [`localization/ru-RU/`](localization/ru-RU)
+(≈7300 строк). Установщик [`install/ugreen-localize-installer.sh`](install/ugreen-localize-installer.sh)
+спрашивает адрес и логин/пароль SSH, копирует переводы на NAS, локализует все
+установленные приложения и ставит systemd-таймер, который возвращает локализацию
+после обновлений. Переподписи пакетов не требуется.
+
+```bash
+# из корня репозитория
+./install/ugreen-localize-installer.sh -H 192.168.1.50 -u admin
+```
+
+Подробнее — [`install/README.md`](install/README.md). Как это устроено и почему
+безопасно — [`docs/SIGNING.md`](docs/SIGNING.md), [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md).
+
 ## Каталог приложений
 
 19 официальных приложений UGOS (все — `amd64`, нативные). Полная таблица с версиями,

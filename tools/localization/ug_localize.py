@@ -34,9 +34,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import ug_checkapp  # noqa: E402
 
-# где UGOS обычно держит установленные приложения (best-effort автопоиск)
+# где UGOS обычно держит установленные приложения (best-effort автопоиск).
+# Можно переопределить переменной окружения UG_SEARCH_ROOTS (шаблоны через ':').
 SEARCH_ROOTS = ["/volume*/", "/volume*/.*/", "/mnt/*/", "/var/lib/ugreen/*/",
                 "/usr/ugreen/*/", "/opt/ugreen/*/"]
+if os.environ.get("UG_SEARCH_ROOTS"):
+    SEARCH_ROOTS = [p for p in os.environ["UG_SEARCH_ROOTS"].split(":") if p]
 
 def resolve_app_dir(arg):
     """Принимает путь или appId; возвращает папку с config.json."""

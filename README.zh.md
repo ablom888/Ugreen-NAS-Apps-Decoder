@@ -100,6 +100,8 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/zh/FORMAT.md`](docs/zh/FORMAT.md) —— `.upk` 容器的逐字节结构。
 - [`docs/zh/EXTRACTION.md`](docs/zh/EXTRACTION.md) —— 解包器的工作原理及使用方法。
 - [`docs/zh/REPACK.md`](docs/zh/REPACK.md) —— 反向打包为 `.upk` 格式。
+- [`docs/zh/SIGNING.md`](docs/zh/SIGNING.md) —— UGOS Pro 中的签名验证：工作原理以及能否自行签名。
+- [`docs/zh/LOCALIZATION.md`](docs/zh/LOCALIZATION.md) —— 无需重新签名，为 UGOS 应用自行本地化。
 
 ## 许可证
 

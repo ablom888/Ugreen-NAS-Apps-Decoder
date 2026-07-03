@@ -100,6 +100,8 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/hi/FORMAT.md`](docs/hi/FORMAT.md) — `.upk` कंटेनर की संरचना बाइट-दर-बाइट।
 - [`docs/hi/EXTRACTION.md`](docs/hi/EXTRACTION.md) — अनपैकर कैसे काम करता है और उसका उपयोग कैसे करें।
 - [`docs/hi/REPACK.md`](docs/hi/REPACK.md) — `.upk` फ़ॉर्मैट में विपरीत पैकिंग।
+- [`docs/hi/SIGNING.md`](docs/hi/SIGNING.md) — UGOS Pro में हस्ताक्षर की जाँच कैसे काम करती है और क्या अपने पैकेज पर हस्ताक्षर करना संभव है।
+- [`docs/hi/LOCALIZATION.md`](docs/hi/LOCALIZATION.md) — बिना दोबारा हस्ताक्षर किए अनुप्रयोगों की अपनी स्थानीयकरण जोड़ना।
 
 ## लाइसेंस
 

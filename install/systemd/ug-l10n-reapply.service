@@ -1,0 +1,12 @@
+[Unit]
+Description=Reapply UGREEN NAS app localization (survives app updates)
+# Локализация лежит в файлах приложений; обновление приложения кладёт
+# оригинальные файлы обратно. Этот oneshot заново накатывает переводы.
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/ug-l10n/apply_all.py --lang ru-RU
+# не считать ошибкой, если часть приложений не установлена
+SuccessExitStatus=0 1
+Nice=10
