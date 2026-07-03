@@ -14,3 +14,4 @@ __pycache__/
 /apps/com.ugreen.office-1.16.0.0004/contents/onlyoffice/documentserver/server/DocService/docservice
 /apps/com.ugreen.office-1.16.0.0004/contents/onlyoffice/documentserver/server/FileConverter/converter
 /apps/com.ugreen.antivirus-1.16.0.0027/contents/db/main.cvd
+err.log
