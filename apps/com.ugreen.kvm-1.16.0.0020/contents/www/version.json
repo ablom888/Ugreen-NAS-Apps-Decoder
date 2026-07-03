@@ -1,0 +1,33 @@
+{
+    "id": "com.ugreen.kvm",
+    "name": "com.ugreen.kvm",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 938,
+    "fullVersion": "v1.8.0.938",
+    "buildTime": "26/05/15 16:44",
+    "description": "Virtual machine suite",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {},
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.40",
+        "ugreen-design": "1.2.22"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

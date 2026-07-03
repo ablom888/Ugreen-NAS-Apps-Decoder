@@ -1,0 +1,28 @@
+[Unit]
+Description = KvmService
+After=sysinfo_serv.service storage_serv.service nginx.service ugbus.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/kvm_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+ExecStartPre = /etc/sysconfig/kvm_serv.sh
+ExecStart = /var/targets/kvm_serv
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /bin/kill -s QUIT $MAINPID
+Restart = on-failure
+CPUAccounting = true
+CPUQuota = 100%
+MemoryMax = 800M
+TimeoutStopSec = 30s
+OOMScoreAdjust = 100
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE GOGC=50 USE_SYSLOG=on
+
+# 应用启动最大启动次数限制
+StartLimitInterval=120s  
+StartLimitBurst=5
+RestartSec=2 
+
+[Install]
+WantedBy = multi-user.target
