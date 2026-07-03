@@ -1,0 +1,38 @@
+{
+    "id": "com.ugreen.music",
+    "name": "com.ugreen.music",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 1953,
+    "fullVersion": "v2.4.0.1953",
+    "buildTime": "26/05/18 14:57",
+    "description": "music kit",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "hideTitle": true,
+        "hideOnClose": true,
+        "frame": false
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.4.19",
+        "ugreen-design": "1.2.22",
+        "@ugreen/qt": "1.0.25"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

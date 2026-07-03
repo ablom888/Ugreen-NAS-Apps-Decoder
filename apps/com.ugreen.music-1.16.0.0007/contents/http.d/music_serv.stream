@@ -1,0 +1,5 @@
+upstream music_backend {
+    server unix:/var/ugreen/music_serv.sock;
+    keepalive 12;
+    keepalive_timeout  300s;
+}

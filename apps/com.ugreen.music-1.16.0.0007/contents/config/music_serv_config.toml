@@ -1,0 +1,50 @@
+# 可能是解析库的原因，如果类似下面这句放到任何[]之下的话，都会被认为是[]下的所属，故类似这种没有[]的，都得放到前面来
+
+[base_info]
+    name = "music_serv"
+    app_id = "com.ugreen.music"
+
+[internal_server]
+    [internal_server.content_search_serv]
+        url="http://127.0.0.1:9999"
+        time_out = 3 # second
+
+[internal_dbus]
+    [internal_server.get_system_language]
+        url="com.ugreen.system.language"
+        time_out = 3 # second
+
+[sqlite3_info]
+    path = "/etc/sqlite3/search2_serv.db"
+
+[postgresql_info_map]
+    [postgresql_info_map.music]
+        host = "/var/run/postgresql"
+        port = 5440
+        user = "postgres"
+        password = "postgres"
+        db_name = "music"
+
+[es_info]
+    url = "http://127.0.0.1:9200/"
+    [es_info.index]
+        [es_info.index.file_search_info]
+            indexName="file_search_info"
+
+[cronTask]
+    [cronTask.cronCheckEsIsRuning]
+         str = "*/10 * * * * *"
+
+[ownConf]
+    batchAddFileSearchInfoNum =  1000
+    cronBuildThumbNum = 100
+    recentlyPlayedNum = 500
+    songlistContentNum = 2000
+    songlistShareIP = "192.168.44.244"
+
+[log_level]
+    level = "INFO"
+
+[pgsql_log]
+    level = "ERROR"
+    slowThreshold = 300

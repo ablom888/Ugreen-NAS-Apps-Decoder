@@ -1,0 +1,27 @@
+[Unit]
+Description=music_serv
+After=basic.target index_serv.service nginx.service storage_serv.service ugbus.service
+Requires=ugbus.service
+ConditionPathIsSymbolicLink=/etc/sysconfig/music_serv.sh
+ConditionPathExists=/etc/sysconfig/music_serv.sh
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStartPre=/etc/sysconfig/music_serv.sh
+ExecStart=/var/targets/music_serv
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+ExecStopPost=/etc/sysconfig/music_serv_stop.sh
+Restart=on-failure
+RestartSec=2s
+OOMScoreAdjust=300
+TimeoutStopSec = 30s
+StartLimitInterval=120s
+StartLimitBurst=5
+CPUAccounting = true
+MemoryHigh = 2G
+
+[Install]
+WantedBy=multi-user.target
