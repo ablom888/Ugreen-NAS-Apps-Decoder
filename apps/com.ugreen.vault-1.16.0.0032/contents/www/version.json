@@ -1,0 +1,46 @@
+{
+    "id": "com.ugreen.vault",
+    "name": "strong-box",
+    "author": "unknown",
+    "version": 1452,
+    "fullVersion": "v1.9.0.1452",
+    "buildTime": "26/05/15 16:06",
+    "description": "undefined",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "hideTitle": true,
+        "hideIcon": true,
+        "headConfig": {
+            "height": 48
+        }
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.7.8",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.40",
+        "@ugreen/task-center-core": "1.2025052810.35",
+        "@ugreen/media-viewer2": "1.20250625.16",
+        "@ugreen/viewer-helper": "1.6.2",
+        "@arco-design/web-vue": "2.58.0",
+        "@arco-themes/vue-ugreen-pro": "0.0.13",
+        "@ugreen/arco-design-enhance": "1.0.1",
+        "ugos-pro-types": "0.0.26",
+        "@ugreen/thumbnail": "1.20260422.7"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

@@ -1,0 +1,5 @@
+upstream vault_backend{
+    server unix:/var/ugreen/vault_serv.sock;
+    keepalive 10;             
+    keepalive_timeout  300s;
+}

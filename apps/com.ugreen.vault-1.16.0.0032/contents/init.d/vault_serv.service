@@ -1,0 +1,24 @@
+[Unit]
+Description = Vault
+After = app_serv.service
+Requires = ugbus.service
+ConditionPathExists=/etc/sysconfig/vault_serv.sh
+
+[Service]
+Type = notify
+NotifyAccess = all
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStartPre = /etc/sysconfig/vault_serv.sh
+ExecStart = /var/targets/vault_serv
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /bin/kill -s QUIT $MAINPID
+Restart = on-failure
+MemoryHigh = 4G
+TimeoutStopSec = 10s
+OOMScoreAdjust = 10
+StartLimitInterval=120s
+StartLimitBurst=5
+RestartSec=2
+
+[Install]
+WantedBy = multi-user.target
