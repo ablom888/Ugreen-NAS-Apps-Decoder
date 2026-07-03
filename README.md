@@ -13,7 +13,9 @@
   (только стандартная библиотека Python 3).
 - **`tools/upk_pack.py`** — обратный упаковщик: собирает `.upk` из распакованной папки
   (round-trip проверен побайтово; см. [`docs/REPACK.md`](docs/REPACK.md)).
-- **`docs/`** — разбор формата контейнера и пошаговое описание распаковки/упаковки.
+- **`tools/localization/`** — скрипты для своей локализации приложений на NAS без
+  переподписи (`ug_localize.py`, `ug_checkapp.py`; см. [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md)).
+- **`docs/`** — формат контейнера, распаковка/упаковка, разбор проверки подписи, локализация.
 - **`apps/`** — распакованные приложения UGOS (файлы в пределах лимита GitHub 100 МБ;
   крупные бинарники исключены — их список в [`apps/EXCLUDED.md`](apps/EXCLUDED.md)).
 - **`catalog/`** — метаданные 19 официальных приложений UGOS: манифест `config.json`,
@@ -100,6 +102,8 @@ gh release download packages-v1 --repo ablom888/Ugreen-NAS-Apps-Decoder --patter
 - [`docs/FORMAT.md`](docs/FORMAT.md) — структура контейнера `.upk` побайтово.
 - [`docs/EXTRACTION.md`](docs/EXTRACTION.md) — как работает распаковщик и как им пользоваться.
 - [`docs/REPACK.md`](docs/REPACK.md) — обратная упаковка в формат `.upk`.
+- [`docs/SIGNING.md`](docs/SIGNING.md) — как UGOS проверяет подпись и можно ли подписывать самим.
+- [`docs/LOCALIZATION.md`](docs/LOCALIZATION.md) — своя локализация приложений на NAS без переподписи.
 
 ## Лицензия
 
