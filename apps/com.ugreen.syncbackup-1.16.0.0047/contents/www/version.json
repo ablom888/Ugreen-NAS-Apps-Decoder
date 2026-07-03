@@ -1,0 +1,47 @@
+{
+    "id": "com.ugreen.syncbackupmgr",
+    "name": "com.ugreen.syncbackupmgr",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 3483,
+    "fullVersion": "v1.8.0.3483",
+    "buildTime": "26/05/14 17:15",
+    "description": "Sync and backup",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {},
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.70",
+        "@ugreen/file-selector": "1.5.38",
+        "ugreen-design": "1.2.22",
+        "@ugreen/qt": "1.0.27",
+        "@ugreen/connect": "1.1.2",
+        "ugos-pro-types": "0.0.29",
+        "@ugreen/sync-backup-core": "0.0.28",
+        "@ugreen/widget": "1.0.33"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [
+        {
+            "url": "./trays/sync-backup-tray/index.html",
+            "supports": [
+                "pc",
+                "web"
+            ],
+            "widgetId": "sync-backup-tray"
+        }
+    ],
+    "contextMenu": []
+}

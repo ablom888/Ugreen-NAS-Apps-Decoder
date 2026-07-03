@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+<script>
+  //inject by ugos-pro-builder
+  const ugosAppId = (window.ugosAppId = 'com.ugreen.syncbackupmgr');
+  const ugosAppVersion = (window.ugosAppVersion = '3483');
+  console.log(
+    '%c com.ugreen.syncbackupmgr_3483(a8c46970)#545 %c 26/05/14 17:15 %c release_20260526 ',
+    'padding: 2px 1px; border-radius: 3px 0 0 3px; color: #fff; background: #606060; font-weight: bold;',
+    'padding: 2px 1px; color: #fff; background: #42c02e; font-weight: bold;',
+    'padding: 2px 1px; border-radius: 0 3px 3px 0; color: #fff; background: #38F; font-weight: bold;'
+  );
+  try {
+    const ugosAppDepsInfo = (window.ugosAppDepsInfo = {"ugos-core":"1.6.19","ugos-pro-builder":"1.2.70","@ugreen/file-selector":"1.5.38","ugreen-design":"1.2.22","@ugreen/qt":"1.0.27","@ugreen/connect":"1.1.2","ugos-pro-types":"0.0.29","@ugreen/sync-backup-core":"0.0.28","@ugreen/widget":"1.0.33"});
+  } catch (e) {}
+</script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" />
+    <title>Sync & Backup</title>
+    <script type="module" crossorigin src="./assets/index-C8oVEG7t.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/ugos-framework-D5pbS95m.js">
+    <link rel="modulepreload" crossorigin href="./assets/ugos-new-selector-jgohiFjX.js">
+    <link rel="stylesheet" crossorigin href="./assets/ugos-framework-VurcDgmJ.css">
+    <link rel="stylesheet" crossorigin href="./assets/ugos-new-selector-BAcuUfXe.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-BptlUaBF.css">
+  </head>
+
+  <script>
+    // 兼容依赖包中的 Node 全局变量访问（如 global）
+    if (typeof globalThis.global === 'undefined') {
+      globalThis.global = globalThis;
+    }
+    // 兼容依赖包中的 process 访问（如 process.env.NODE_ENV）
+    if (typeof globalThis.process === 'undefined') {
+      globalThis.process = {
+        env: {},
+        browser: true,
+        nextTick: cb => Promise.resolve().then(cb),
+      };
+    }
+    window.supportOHPC = true;
+  </script>
+
+  <body id="sync-backup-manage">
+    <noscript>
+      <strong>We're sorry but Sync & Backup doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>

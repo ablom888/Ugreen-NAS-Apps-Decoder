@@ -1,0 +1,15 @@
+[
+  {
+    "Model": ["iDX6012", "iDX6011"],
+    "Option": [
+      {
+        "Key": "Service.CPUQuota",
+        "Value": "800%"
+      },
+      {
+        "Key": "Service.MemoryHigh",
+        "Value": "8G"
+      }
+    ]
+  }
+]
