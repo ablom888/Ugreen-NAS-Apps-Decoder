@@ -1,0 +1,1 @@
+function e(e){return new Worker(``+new URL(`json.worker-CCzEOxDx.js`,import.meta.url).href,{name:e?.name})}export{e as default};

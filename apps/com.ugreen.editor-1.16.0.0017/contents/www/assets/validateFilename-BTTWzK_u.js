@@ -1,0 +1,1 @@
+import{n as e}from"./lodash-es-FtDB_vnJ.js";function t(e){return/[/'";|\\:*?<>]/g.test(e)}var n=t=>(t=(t||``).trim(),e(t)),r=e=>e===`.`||e===`..`||e?.slice(0,2)===`._`,i=(e=``,t=0)=>{let n=e.split(``),r=[],i=new TextEncoder,a=0;for(let e of n)a+=i.encode(e).buffer.byteLength,a<=t&&r.push(e);return{splitStr:r.join(``),byteLength:a}};export{t as i,r as n,i as r,n as t};

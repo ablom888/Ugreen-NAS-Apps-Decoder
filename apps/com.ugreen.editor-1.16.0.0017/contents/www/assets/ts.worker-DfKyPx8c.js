@@ -1,0 +1,1 @@
+function e(e){return new Worker(``+new URL(`ts.worker-DI5g4t5j.js`,import.meta.url).href,{name:e?.name})}export{e as default};

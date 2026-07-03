@@ -1,0 +1,1 @@
+function e(e){return new Worker(``+new URL(`css.worker-BtW9exzf.js`,import.meta.url).href,{name:e?.name})}export{e as default};

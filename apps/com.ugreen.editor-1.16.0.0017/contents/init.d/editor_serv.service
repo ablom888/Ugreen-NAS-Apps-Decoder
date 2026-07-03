@@ -1,0 +1,22 @@
+[Unit]
+Description=Editor Server
+After=app_serv.service
+Requires=ugbus.service
+ConditionPathExists=/etc/sysconfig/editor_serv.sh
+
+[Service]
+Type = notify
+NotifyAccess=all
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStartPre=/etc/sysconfig/editor_serv.sh
+ExecStart=/var/targets/editor_serv
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=2
+MemoryMax=30%
+CPUQuota=200%
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
