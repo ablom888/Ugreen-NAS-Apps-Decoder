@@ -1,0 +1,116 @@
+# cameramgr_serv Configuration
+# Override with environment variables: CAMERAMGR_SERVER_SOCKET_PATH, CAMERAMGR_LOG_LEVEL, etc.
+
+server:
+  # 监听模式: socket（默认）、http、both
+  listen_mode: "both"
+  # socket_path 留空则使用平台约定: /var/ugreen/{进程名}.sock
+  socket_path: ""
+  http_addr: ":9080"
+  # 是否启用 Swagger UI（仅开发环境启用）
+  enable_swagger: true
+  read_timeout: 30s
+  write_timeout: 30s
+
+log:
+  level: "debug"      # debug, info, warn, error
+  format: "text"     # json, text
+
+database:
+  # PostgreSQL 连接配置（独立实例）
+  # 使用 TCP localhost 连接，trust 认证无需密码
+  host: "localhost"
+  port: 5441
+  user: "postgres"
+  password: ""
+  dbname: "cameramgr"
+  sslmode: "disable"
+  # 连接池配置
+  max_open_conns: 8
+  max_idle_conns: 1
+  conn_max_lifetime: 30m
+  conn_max_idle_time: 3m
+  # 分区配置
+  hot_months: 3          # 热数据保留月数
+  retention_months: 12   # 总保留月数
+
+worker:
+  stream:
+    max_workers: 4
+    max_capacity: 100
+  thumbnail:
+    max_workers: 4
+    max_capacity: 500
+  notify:
+    max_workers: 4
+    max_capacity: 1000
+  archive:
+    max_workers: 2
+    max_capacity: 50
+  device_discover:
+    max_workers: 12
+    max_capacity: 0
+  event_subscribe_pull:
+    max_workers: 1
+    max_capacity: 1
+  camera_fsm:
+    max_workers: 4
+    max_capacity: 1000
+  ums_callback:
+    max_workers: 4
+    max_capacity: 500
+  device_event_process:
+    max_workers: 1      # 1 worker 保证事件按顺序处理
+    max_capacity: 1000
+  camera_event_process:
+    max_workers: 1      # 1 worker 保证事件按顺序处理
+    max_capacity: 1000
+  event_thumbnail:
+    max_workers: 1      # 1 worker 保证事件按顺序处理
+    max_capacity: 1000
+  retrieval:
+    max_workers: 2      # 设备寻回任务
+    max_capacity: 100
+  event_send_notify_center:
+    max_workers: 1
+    max_capacity: 1000
+  file_cleanup:
+    max_workers: 2
+    max_capacity: 500
+  index_listener:
+    max_workers: 1
+    max_capacity: 1
+  orphan_cleanup:
+    max_workers: 2
+    max_capacity: 100
+  hetero_analysis_trigger:
+    max_workers: 4      # 同 cameraID 内部已去重，4 路并发覆盖多镜头同时触发
+    max_capacity: 200   # 满了说明 hetero 已大面积异常，丢弃即可（hetero 滑动窗口会自动续期）
+  hetero_session_watcher:
+    max_workers: 64     # 每路摄像头每会话占 1 个 worker，长阻塞至 hetero EOF 或 10min 兜底
+    max_capacity: 64    # 与 max_workers 对齐：watcher 入队等待意味着会话清理被延后，不应出现排队
+
+scheduler:
+  enabled: true
+  archive_cron: "0 0 1 * *"        # 每月1日凌晨0点归档
+  cleanup_cron: "0 4 * * 0"        # 每周日凌晨4点清理过期归档
+  record_cleanup_cron: "0 3 * * *" # 每日凌晨3点录像循环删除
+  share_folder_check_interval: "2m" # 每 2 分钟检查一次共享目录
+  play_stream_clean_cron: "*/2 * * * *" # 每 2 分钟执行一次播放流清理
+  record_folder_free_up_interval: "5m" # 每 5 分钟执行一次
+  orphan_cleanup_interval: "30m" # 每 30 分钟清理磁盘上不存在的孤立录像记录
+  # 未登记人脸 / 陌生车牌到期硬删
+  ai_face_cleanup_cron: "0 */12 * * *"       # 每 12 小时
+  ai_vehicle_plate_cleanup_cron: "0 */12 * * *"
+  ai_face_cleanup_batch_limit: 100           # 每轮最多删除条数
+  ai_vehicle_plate_cleanup_batch_limit: 100
+
+record: 
+  volume_free_size_threshold: 50 # 可用容量少于 50M 立即停流
+
+# 内部参数（limits）不在此文件暴露，仅通过环境变量设置，如：
+#   CAMERAMGR_LIMITS_MAX_CAMERAS   最大摄像头数（默认 8）
+#   CAMERAMGR_LIMITS_PTZ_CACHE_TTL PTZ 缓存过期时间（默认 5m）
+
+# 设备自动寻回配置使用代码中的默认值（见 internal/config/config.go Default()）
+# 如需覆盖，可添加 retrieval.configs 配置项

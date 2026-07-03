@@ -1,0 +1,89 @@
+SUV 100 n
+Pessoa 100 n
+Rosto 100 n
+Corpo humano 100 n
+Forma humana 100 n
+Pessoa 100 n
+Detecção de pessoa 100 n
+Intrusão 100 n
+Child 100 n
+Entrada de água 100 n
+Encomenda 100 n
+Perda de encomendas 100 n
+Detecção de encomenda 100 n
+Invasão da região 100 n
+Perda / perdido 100 n
+Pessoa de meia-idade 100 n
+Adulto 100 n
+Mulher 100 n
+Mulher 100 n
+Animal de estimação 100 n
+Animal de estimação 100 n
+Animais 100 n
+Animais 100 n
+Pelagem da mascota 100 n
+Detecção de animais de estimação 100 n
+Criança 100 n
+Embalagem 100 n
+Embalagem 100 n
+Serviço de entregas 100 n
+Serviço de entregas 100 n
+Entrega de comida 100 n
+Entrega de comida 100 n
+Entregador 100 n
+Entregador 100 n
+Vadiagem 100 n
+Outono 100 n
+Estranho 100 n
+Pessoa conhecida 100 n
+Idosos 100 n
+Idosos 100 n
+Pessoa idosa 100 n
+Pessoa idosa 100 n
+Masculino 100 n
+Homem 100 n
+Comportamento anormal 100 n
+Outono 100 n
+Carro 100 n
+Veículo 100 n
+Detecção de veículo 100 n
+Cruzar 100 n
+Passe por cima 100 n
+Cair à água 100 n
+Chama 100 n
+Detecção de fogo 100 n
+Entrar 100 n
+entrada na área 100 n
+Sair 100 n
+saída da área 100 n
+mudança de cena 100 n
+Detecção de mudança de cena 100 n
+Passe por cima 100 n
+Gato 100 n
+Gato 100 n
+Cão 100 n
+Sem cabelo 100 n
+Preto 100 n
+Branco 100 n
+Castanho 100 n
+Laranja 100 n
+Cinza 100 n
+Multicolorido 100 n
+Tabby 100 n
+Amarelo 100 n
+Motociclo 100 n
+Carro 100 n
+Caminhonete 100 n
+Bicicletas 100 n
+Bicicleta elétrica 100 n
+Matrícula 100 n
+Conteúdo da matrícula 100 n
+Número da matrícula 100 n
+Oclusão 100 n
+Falha do dispositivo 100 n
+Dispositivo movido 100 n
+Adulteração detectada 100 n
+Ultrapassagem de limite 100 n
+Detecção de ultrapassagem de limite 100 n
+Ultrapassagem de linha 100 n
+Sedan 100 n

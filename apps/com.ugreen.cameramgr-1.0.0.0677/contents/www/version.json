@@ -1,0 +1,49 @@
+{
+    "id": "com.ugreen.cameramgr",
+    "name": "camera",
+    "author": "UGREEN GROUP LIMITED",
+    "version": 2226,
+    "fullVersion": "v1.1.0.2226",
+    "buildTime": "26/05/21 16:34",
+    "description": "Monitoring center",
+    "supportLanguages": [
+        "de-DE",
+        "en-US",
+        "es-ES",
+        "fr-FR",
+        "it-IT",
+        "ja-JP",
+        "ko-KR",
+        "nl-NL",
+        "pt-PT",
+        "zh-CN",
+        "zh-TW"
+    ],
+    "windowConfig": {
+        "width": 1440,
+        "height": 900,
+        "background": "#15181d",
+        "hideOnClose": false,
+        "showIcon": false,
+        "hideTitle": true,
+        "color": "rgba(255, 255, 255, 0.85)",
+        "blurColor": "rgba(255, 255, 255, 0.45)",
+        "frame": false,
+        "headConfig": {
+            "height": 56
+        },
+        "help": null
+    },
+    "dependenciesInfo": {
+        "ugos-core": "1.6.19",
+        "ugos-pro-builder": "1.2.65",
+        "@ugreen/file-selector": "1.5.40",
+        "@ugreen/task-center-core": "1.20260422.17",
+        "@arco-design/web-vue": "2.57.0",
+        "ugos-pro-types": "0.0.38"
+    },
+    "childApp": {},
+    "widgets": [],
+    "trays": [],
+    "contextMenu": []
+}

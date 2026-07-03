@@ -1,0 +1,19 @@
+# Production overrides
+
+log:
+  level: "info"
+  format: "json"
+
+worker:
+  stream:
+    max_workers: 20
+    max_capacity: 200
+  thumbnail:
+    max_workers: 8
+    max_capacity: 1000
+  notify:
+    max_workers: 50
+    max_capacity: 2000
+  device_discover:
+    max_workers: 20
+    max_capacity: 1000

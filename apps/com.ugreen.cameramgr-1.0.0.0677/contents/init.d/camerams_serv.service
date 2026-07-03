@@ -1,0 +1,23 @@
+[Unit]
+Description = Media Server
+After = cameramgr_serv.service
+Requires = cameramgr_serv.service
+BindsTo = cameramgr_serv.service
+
+[Service]
+Environment=LOG_LEVEL=DEBUG LOG_OUTPUT=FILE USE_SYSLOG=on
+ExecStart = /etc/sysconfig/camerams_serv.sh
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /bin/kill -s QUIT $MAINPID
+Restart = on-failure
+#MemoryHigh = 4G
+TimeoutStopSec = 10s
+OOMScoreAdjust = 10
+StartLimitInterval=120s
+StartLimitBurst=5
+RestartSec=2
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy = multi-user.target

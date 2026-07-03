@@ -1,0 +1,27 @@
+[Unit]
+Description = Camera Manager
+After = storage_serv.service nginx.service entry_serv.service ugbus.service filemgr_serv.service
+Requires = ugbus.service
+Wants = camerams_serv.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+Environment=LOG_LEVEL=INFO LOG_OUTPUT=FILE USE_SYSLOG=on GOGC=50 GOMEMLIMIT=256MiB
+#Environment=LOG_LEVEL=DEBUG LOG_OUTPUT=FILE USE_SYSLOG=on GOGC=50 GODEBUG=gctrace=1
+ExecStartPre = /etc/sysconfig/cameramgr_serv_pre.sh
+ExecStart = /etc/sysconfig/cameramgr_serv.sh
+ExecReload = /bin/kill -s HUP $MAINPID
+ExecStop = /bin/kill -s QUIT $MAINPID
+ExecStopPost = /etc/sysconfig/cameramgr_serv_stop.sh
+Restart = on-failure
+#MemoryHigh = 4G
+TimeoutStopSec = 10s
+OOMScoreAdjust = 10
+StartLimitInterval=120s
+StartLimitBurst=5
+RestartSec=2
+
+
+[Install]
+WantedBy = multi-user.target

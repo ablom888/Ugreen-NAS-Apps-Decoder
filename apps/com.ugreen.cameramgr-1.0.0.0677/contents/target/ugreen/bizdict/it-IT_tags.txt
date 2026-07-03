@@ -1,0 +1,89 @@
+SUV 100 n
+Persona 100 n
+Volto 100 n
+Il corpo umano 100 n
+Forma umana 100 n
+Persona 100 n
+Rilevamento persona 100 n
+Intrusione 100 n
+Child 100 n
+Ingresso dell'acqua 100 n
+Pacco 100 n
+Smarrimento del pacco 100 n
+Rilevamento pacco 100 n
+Intrusione nella regione 100 n
+Perso / smarrito 100 n
+Persona di mezza età 100 n
+Adulti 100 n
+Donna 100 n
+Donna 100 n
+Animale domestico 100 n
+Animale domestico 100 n
+Animale 100 n
+Animale 100 n
+Colore del pelo 100 n
+Rilevamento di animali domestici 100 n
+Bambino 100 n
+Confezione 100 n
+Confezione 100 n
+Corriere 100 n
+Corriere 100 n
+Consegna di cibo 100 n
+Consegna di cibo 100 n
+Corriere 100 n
+Corriere 100 n
+Vagabondaggio 100 n
+Autunno 100 n
+Uno sconosciuto 100 n
+Persona nota 100 n
+Anziani 100 n
+Anziani 100 n
+Anziano 100 n
+Anziano 100 n
+Maschio 100 n
+Uomo 100 n
+Comportamento anomalo 100 n
+Autunno 100 n
+Auto 100 n
+Veicolo 100 n
+Rilevamento veicoli 100 n
+Attraversare 100 n
+Fai un passo 100 n
+Cadere in acqua 100 n
+Fiamma 100 n
+Rilevamento incendio 100 n
+Inserisci 100 n
+accesso all'area 100 n
+Partenza 100 n
+uscita dall'area 100 n
+cambio di scena 100 n
+Rilevamento cambio di scena 100 n
+Scavalca 100 n
+Gatto 100 n
+Gatto 100 n
+Cane 100 n
+Senza peli 100 n
+Nero 100 n
+Bianco 100 n
+Marrone 100 n
+Arancione 100 n
+Grigio 100 n
+Multicolore 100 n
+Tabby 100 n
+Giallo 100 n
+Motocicletta 100 n
+Auto 100 n
+Furgone 100 n
+Bicicletta 100 n
+Bicicletta elettrica 100 n
+Targa 100 n
+Contenuto della targa 100 n
+Numero di targa 100 n
+Occlusione 100 n
+Guasto dispositivo 100 n
+Dispositivo spostato 100 n
+Manomissione rilevata 100 n
+Attraversamento del limite 100 n
+Rilevamento attraversamento limite 100 n
+Attraversamento della linea 100 n
+Berlina 100 n

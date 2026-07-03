@@ -1,0 +1,23 @@
+# cameramgr_serv Development Configuration
+# This file overrides config.yaml when running with -env=dev or -d flag
+
+server:
+  # 开发模式使用 HTTP 方便本地调试
+  listen_mode: "http"
+  http_addr: ":9999"
+  # 开发环境启用 Swagger UI
+  enable_swagger: true
+
+log:
+  level: "debug"
+  format: "text"
+
+database:
+  # 开发环境 PostgreSQL 配置（Docker 容器）
+  # 启动命令: make dev-db-up
+  host: "localhost"          # Docker 映射到本地
+  port: 5441                 # 与生产端口一致
+  user: "postgres"           # 与生产一致
+  password: ""               # trust 认证，无需密码
+  dbname: "cameramgr_dev"
+  sslmode: "disable"

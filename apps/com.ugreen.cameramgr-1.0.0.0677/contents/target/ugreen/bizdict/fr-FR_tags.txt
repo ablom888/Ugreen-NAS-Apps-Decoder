@@ -1,0 +1,89 @@
+SUV 100 n
+Personne 100 n
+Visage 100 n
+Corps humain 100 n
+Silhouette humaine 100 n
+Personne 100 n
+Détection de personne 100 n
+Intrusion 100 n
+Child 100 n
+Chute dans l’eau 100 n
+Colis 100 n
+Colis perdu 100 n
+Détection de colis 100 n
+Intrusion dans une zone 100 n
+Perte / perdu 100 n
+Personne d’âge moyen 100 n
+Adulte 100 n
+Femme 100 n
+Femme 100 n
+Animal de compagnie 100 n
+Animal de compagnie 100 n
+Animaux 100 n
+Animaux 100 n
+Couleur de pelage 100 n
+Détection d’animaux de compagnie 100 n
+Enfant 100 n
+Colis 100 n
+Colis 100 n
+Livreur de colis 100 n
+Livreur de colis 100 n
+Livraison de repas 100 n
+Livraison de repas 100 n
+Livreur de repas 100 n
+Livreur de repas 100 n
+Flânerie 100 n
+Chute 100 n
+Inconnu 100 n
+Connu 100 n
+Senior 100 n
+Senior 100 n
+Personne âgée 100 n
+Personne âgée 100 n
+Homme 100 n
+Homme 100 n
+Comportement anormal 100 n
+Chute 100 n
+Vélo 100 n
+Véhicule 100 n
+Détection de véhicule 100 n
+Franchir 100 n
+Franchissement 100 n
+Chute dans l’eau 100 n
+Flamme 100 n
+Détection d’incendie 100 n
+Entrer 100 n
+la zone d’accès 100 n
+Quitter 100 n
+la sortie de la zone 100 n
+le changement de scène 100 n
+Détection de changement de scène 100 n
+Franchissement 100 n
+Chat 100 n
+Chat 100 n
+Chien 100 n
+Sans poils 100 n
+Noir 100 n
+Blanc 100 n
+Marron 100 n
+Orange 100 n
+Gris 100 n
+Multicolore 100 n
+Tabby 100 n
+Jaune 100 n
+Moto 100 n
+Voiture 100 n
+Pick-up 100 n
+Vélo 100 n
+Scooter électrique 100 n
+Plaque d'immatriculation 100 n
+Contenu de la plaque d'immatriculation 100 n
+Numéro de plaque d'immatriculation 100 n
+Occultation 100 n
+Panne d’appareil 100 n
+Appareil déplacé 100 n
+Altération détectée 100 n
+Franchissement de limite 100 n
+Détection de franchissement de limite 100 n
+Franchissement de ligne 100 n
+Voiture 100 n

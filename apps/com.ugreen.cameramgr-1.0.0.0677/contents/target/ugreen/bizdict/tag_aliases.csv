@@ -1,0 +1,233 @@
+TagKey,LangCode,Category,Alias
+__column_description__,语言代码,标签分类,同一语言下：首项为标准展示名，其后为与首项同义/可互换的用户说法，均映射到左侧 TagKey（TagKey 与 AI 入库 tags 的中文规范一致）
+人物,zh-CN,general,"[人形,人体,人物]"
+人物,en-US,general,"[Human,Person,Figure]"
+人物检测,zh-CN,general,"[人物检测,renwujiance]"
+人物检测,en-US,general,[Person detection]
+人物检测,nl-NL,general,[Persoonsdetectie]
+人物检测,de-DE,general,[Personenerkennung]
+人物检测,pt-PT,general,[Detecção de pessoa]
+人物检测,es-ES,general,[Detección de persona]
+人物检测,it-IT,general,[Rilevamento persona]
+人物检测,fr-FR,general,[Détection de personne]
+人物检测,ja-JP,general,[人物検知]
+人物检测,ko-KR,general,[사람 감지]
+人物检测,zh-TW,general,"[人物偵測,renwujiance]"
+车辆,zh-CN,general,"[车辆,车,机动车]"
+车辆,en-US,general,"[Vehicle,Motor vehicle,Automobile]"
+车辆检测,zh-CN,general,"[车辆检测,cheliangjiance]"
+车辆检测,en-US,general,[Vehicle detection]
+车辆检测,nl-NL,general,[Voertuigdetectie]
+车辆检测,de-DE,general,[Fahrzeugerkennung]
+车辆检测,pt-PT,general,[Detecção de veículo]
+车辆检测,es-ES,general,[Detección de vehículos]
+车辆检测,it-IT,general,[Rilevamento veicoli]
+车辆检测,fr-FR,general,[Détection de véhicule]
+车辆检测,ja-JP,general,[車両検知]
+车辆检测,ko-KR,general,[차량 감지]
+车辆检测,zh-TW,general,"[車輛偵測,cheliangjiance]"
+包裹,zh-CN,smart_category,"[包裹,邮包,快件,快递包,快递,外卖,外卖单,baoguo,kuaidi,waimai]"
+包裹,en-US,smart_category,"[Package,Parcel,Delivery box]"
+包裹,pinyin,smart_category,"[baoguo,kuaidi,waimai]"
+包裹检测,zh-CN,smart_category,"[包裹检测,baoguojiance]"
+包裹检测,en-US,smart_category,[Package detection]
+包裹检测,nl-NL,smart_category,[Pakketdetectie]
+包裹检测,de-DE,smart_category,[Paketerkennung]
+包裹检测,pt-PT,smart_category,[Detecção de encomenda]
+包裹检测,es-ES,smart_category,[Detección de paquete]
+包裹检测,it-IT,smart_category,[Rilevamento pacco]
+包裹检测,fr-FR,smart_category,[Détection de colis]
+包裹检测,ja-JP,smart_category,[荷物検知]
+包裹检测,ko-KR,smart_category,[택배 감지]
+包裹检测,zh-TW,smart_category,"[包裹偵測,baoguojiance]"
+越界检测,zh-CN,general,"[越界检测,越线,绊线]"
+越界检测,en-US,general,"[Line crossing,Crossing line,Line tripwire]"
+区域入侵,zh-CN,general,"[区域入侵,入侵,闯入,quyuruqin,ruqin]"
+区域入侵,en-US,general,[Region intrusion]
+区域入侵,nl-NL,general,[Inbreuk op het gebied]
+区域入侵,de-DE,general,[Eindringen]
+区域入侵,pt-PT,general,[Invasão da região]
+区域入侵,es-ES,general,[Intrusión en la región]
+区域入侵,it-IT,general,[Intrusione nella regione]
+区域入侵,fr-FR,general,[Intrusion dans une zone]
+区域入侵,ja-JP,general,[区域への侵入·侵入]
+区域入侵,ko-KR,general,[지역 침입]
+区域入侵,zh-TW,general,"[區域入侵,quyuruqin,ruqin]"
+人脸,zh-CN,general,"[人脸,脸部,面部]"
+人脸,en-US,general,"[Face,Facial]"
+人脸检测,zh-CN,general,"[人脸检测,renlianjiance]"
+人脸检测,en-US,general,[Face detection]
+人脸检测,nl-NL,general,[Gezichts detectie]
+人脸检测,de-DE,general,[Gesicht erkannt]
+人脸检测,pt-PT,general,[Detecção de rostos]
+人脸检测,es-ES,general,[Detección de rostros]
+人脸检测,it-IT,general,[Rilevamento dei volti]
+人脸检测,fr-FR,general,[Détection de visages]
+人脸检测,ja-JP,general,[顔検知]
+人脸检测,ko-KR,general,[얼굴 인식]
+人脸检测,zh-TW,general,"[人臉偵測,renlianjiance]"
+儿童,zh-CN,person,"[儿童,小孩,孩子,ertong,xiaohai,haizi]"
+儿童,pinyin,person,"[ertong,haizi,xiaohai]"
+儿童,en-US,person,[Child]
+儿童,nl-NL,person,[Child]
+儿童,de-DE,person,[Child]
+儿童,pt-PT,person,[Child]
+儿童,es-ES,person,[Child]
+儿童,it-IT,person,[Child]
+儿童,fr-FR,person,[Child]
+儿童,ja-JP,person,[児童]
+儿童,ko-KR,person,[어린이]
+儿童,zh-TW,person,"[兒童,ertong,xiaohai,haizi]"
+成年人,zh-CN,person,"[成年人,中年人,大人,chengnianren,zhongnianren,daren]"
+成年人,en-US,person,[Adult]
+成年人,nl-NL,person,[Volwassenen]
+成年人,de-DE,person,[Erwachsene]
+成年人,pt-PT,person,[Adulto]
+成年人,es-ES,person,[Adulto/a]
+成年人,it-IT,person,[Adulti]
+成年人,fr-FR,person,[Adulte]
+成年人,ja-JP,person,[成人]
+成年人,ko-KR,person,[성인]
+成年人,zh-TW,person,"[成年人,chengnianren,zhongnianren,daren]"
+老人,zh-CN,person,"[老人,老年人,长者,laoren,laonianren,zhangzhe]"
+老人,pinyin,person,"[laoren,laonianren,zhangzhe]"
+老人,en-US,person,[Elderly]
+老人,nl-NL,person,[Ouderen]
+老人,de-DE,person,[Ältere Person]
+老人,pt-PT,person,[Idosos]
+老人,es-ES,person,[Personas mayores]
+老人,it-IT,person,[Anziani]
+老人,fr-FR,person,[Senior]
+老人,ja-JP,person,[Elderly]
+老人,ko-KR,person,[노인]
+老人,zh-TW,person,"[老人,laoren,laonianren,zhangzhe]"
+男士,zh-CN,person,"[男士,男人,男性,nanshi,nanren,nanxing]"
+男士,en-US,person,[Male]
+男士,nl-NL,person,[Man]
+男士,de-DE,person,[Mann]
+男士,pt-PT,person,[Masculino]
+男士,es-ES,person,[Hombre]
+男士,it-IT,person,[Maschio]
+男士,fr-FR,person,[Homme]
+男士,ja-JP,person,[男性·男性]
+男士,ko-KR,person,[남성]
+男士,zh-TW,person,"[男士,nanshi,nanren,nanxing]"
+女士,zh-CN,person,"[女士,女人,女性,nvshi,nuren,nvxing]"
+女士,en-US,person,[Female]
+女士,nl-NL,person,[Vrouw]
+女士,de-DE,person,[Frau]
+女士,pt-PT,person,[Mulher]
+女士,es-ES,person,[Mujer]
+女士,it-IT,person,[Donna]
+女士,fr-FR,person,[Femme]
+女士,ja-JP,person,[女性·女性]
+女士,ko-KR,person,[여자]
+女士,zh-TW,person,"[女士,nvshi,nuren,nvxing]"
+火焰检测,zh-CN,general,"[火焰检测,火情,明火,烟火,huoyanjiance]"
+火焰检测,en-US,general,[Fire detection]
+火焰检测,nl-NL,general,[Branddetectie]
+火焰检测,de-DE,general,[Feuermeldung]
+火焰检测,pt-PT,general,[Detecção de fogo]
+火焰检测,es-ES,general,[Detección de incendios]
+火焰检测,it-IT,general,[Rilevamento incendio]
+火焰检测,fr-FR,general,[Détection d’incendie]
+火焰检测,ja-JP,general,[火災検知]
+火焰检测,ko-KR,general,[화재 감지]
+火焰检测,zh-TW,general,"[火焰偵測,huoyanjiance]"
+画面变化检测,zh-CN,general,"[画面变化检测,画面变化,画面异动]"
+画面变化检测,en-US,general,"[Picture change detection,Scene change,Motion change]"
+设备故障,zh-CN,general,"[设备故障,机器故障,硬件故障,shebeiguzhang]"
+设备故障,en-US,general,[Device fault]
+设备故障,nl-NL,general,[Apparaatstoring]
+设备故障,de-DE,general,[Gerätefehler]
+设备故障,pt-PT,general,[Falha do dispositivo]
+设备故障,es-ES,general,[Fallo del dispositivo]
+设备故障,it-IT,general,[Guasto dispositivo]
+设备故障,fr-FR,general,[Panne d’appareil]
+设备故障,ja-JP,general,[デバイス故障]
+设备故障,ko-KR,general,[장치 오류]
+设备故障,zh-TW,general,"[裝置故障,shebeiguzhang]"
+镜头遮挡,zh-CN,general,"[镜头遮挡,遮挡,视频遮罩,画面遮挡,jingtouzhedang,zhedang]"
+镜头遮挡,en-US,general,[Tampering detected]
+镜头遮挡,nl-NL,general,[Manipulatie gedetecteerd]
+镜头遮挡,de-DE,general,[Manipulation erkannt]
+镜头遮挡,pt-PT,general,[Adulteração detectada]
+镜头遮挡,es-ES,general,[Manipulación detectada]
+镜头遮挡,it-IT,general,[Manomissione rilevata]
+镜头遮挡,fr-FR,general,[Altération détectée]
+镜头遮挡,ja-JP,general,[改ざん検知]
+镜头遮挡,ko-KR,general,[무단 조작 감지]
+镜头遮挡,zh-TW,general,"[鏡頭異常遮擋,jingtouzhedang,zhedang]"
+设备移动,zh-CN,general,"[设备移动,镜头移位,位移,shebeiyidong]"
+设备移动,en-US,general,[Device moved]
+设备移动,nl-NL,general,[Apparaat verplaatst]
+设备移动,de-DE,general,[Gerät bewegt]
+设备移动,pt-PT,general,[Dispositivo movido]
+设备移动,es-ES,general,[Dispositivo movido]
+设备移动,it-IT,general,[Dispositivo spostato]
+设备移动,fr-FR,general,[Appareil déplacé]
+设备移动,ja-JP,general,[デバイス移動]
+设备移动,ko-KR,general,[장치 이동]
+设备移动,zh-TW,general,"[裝置移動,shebeiyidong]"
+陌生人,zh-CN,general,"[陌生人,生人,陌路人,moshengren]"
+陌生人,en-US,general,[Stranger]
+陌生人,nl-NL,general,[Vreemdeling]
+陌生人,de-DE,general,[Fremde Person]
+陌生人,pt-PT,general,[Estranho]
+陌生人,es-ES,general,[Desconocido/a]
+陌生人,it-IT,general,[Uno sconosciuto]
+陌生人,fr-FR,general,[Inconnu]
+陌生人,ja-JP,general,[見知らぬ人]
+陌生人,ko-KR,general,[낯선 사람]
+陌生人,zh-TW,general,"[陌生人,moshengren]"
+快递员,zh-CN,person,"[快递员,快递小哥,派送员,kuaidiyuan]"
+快递员,pinyin,person,"[kuaidiyuan,kuaidixiaoge,paisongyuan]"
+快递员,en-US,person,[Courier]
+快递员,nl-NL,person,[Koerier]
+快递员,de-DE,person,[Zusteller:in]
+快递员,pt-PT,person,[Serviço de entregas]
+快递员,es-ES,person,[Mensajero/a]
+快递员,it-IT,person,[Corriere]
+快递员,fr-FR,person,[Livreur de colis]
+快递员,ja-JP,person,[中国の配達]
+快递员,ko-KR,person,[배달원]
+快递员,zh-TW,person,"[快遞員,kuaidiyuan]"
+外卖员,zh-CN,person,"[外卖员,骑手,送餐员,waimaiyuan]"
+外卖员,pinyin,person,"[waimaiyuan,qishou,songcanyuan]"
+外卖员,en-US,person,[Delivery person]
+外卖员,nl-NL,person,[Bezorger]
+外卖员,de-DE,person,[Zusteller:in]
+外卖员,pt-PT,person,[Entregador]
+外卖员,es-ES,person,[Repartidor/a]
+外卖员,it-IT,person,[Corriere]
+外卖员,fr-FR,person,[Livreur de repas]
+外卖员,ja-JP,person,[中国の配達員]
+外卖员,ko-KR,person,[배달원]
+外卖员,zh-TW,person,"[外賣員,waimaiyuan]"
+宠物,zh-CN,smart_category,"[宠物,爱宠,萌宠,毛孩子,猫,小猫,喵,mao,xiaomao]"
+宠物,en-US,smart_category,"[Pet,Household pet,Family pet]"
+宠物,pinyin,smart_category,"[chongwu,mao,xiaomao,miao]"
+车牌,zh-CN,general,"[车牌,牌照,车号牌,号牌]"
+车牌,en-US,general,"[License plate,Plate,Registration plate,Number plate]"
+非机动车,zh-CN,smart_category,"[非机动车,自行车,电瓶车,电动车,脚踏车,单车,feijidongche]"
+非机动车,en-US,smart_category,[Non-motor vehicle]
+非机动车,nl-NL,smart_category,[Niet-motorvoertuig]
+非机动车,de-DE,smart_category,[Nicht-Kraftfahrzeug]
+非机动车,pt-PT,smart_category,[Veículo não motorizado]
+非机动车,es-ES,smart_category,[Vehículo no motorizado]
+非机动车,it-IT,smart_category,[Veicolo non a motore]
+非机动车,fr-FR,smart_category,[Véhicule non motorisé]
+非机动车,ja-JP,smart_category,[非自動車（自転車等）]
+非机动车,ko-KR,smart_category,[비자동차]
+非机动车,zh-TW,smart_category,"[非機動車,feijidongche]"
+异常行为,zh-CN,general,"[异常行为,行为异常,可疑行为,yichangxingwei]"
+异常行为,en-US,general,[Abnormal behavior]
+异常行为,nl-NL,general,[Abnormaal gedrag]
+异常行为,de-DE,general,[Ungewöhnliches Verhalten]
+异常行为,pt-PT,general,[Comportamento anormal]
+异常行为,es-ES,general,[Comportamiento anómalo]
+异常行为,it-IT,general,[Comportamento anomalo]
+异常行为,fr-FR,general,[Comportement anormal]
+异常行为,ja-JP,general,[異常な行動]
+异常行为,ko-KR,general,[비정상적인 행동]
+异常行为,zh-TW,general,"[異常行為,yichangxingwei]"

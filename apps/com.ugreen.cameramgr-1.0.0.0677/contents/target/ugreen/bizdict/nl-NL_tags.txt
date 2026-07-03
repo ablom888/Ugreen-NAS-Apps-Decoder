@@ -1,0 +1,89 @@
+SUV 100 n
+Persoon 100 n
+Gezicht 100 n
+Menselijk lichaam 100 n
+Menselijke  100 n
+Persoon 100 n
+Persoonsdetectie 100 n
+Inbraak 100 n
+Child 100 n
+In het water vallen 100 n
+Pakket 100 n
+Pakket verloren 100 n
+Pakketdetectie 100 n
+Inbreuk op het gebied 100 n
+Verloren / weg 100 n
+Persoon van middelbare leeftijd 100 n
+Volwassenen 100 n
+Vrouw 100 n
+Vrouw 100 n
+Huisdier 100 n
+Huisdier 100 n
+Dier 100 n
+Dier 100 n
+Vachtkleur huisdier 100 n
+Detectie van huisdieren 100 n
+Kind 100 n
+Pakket 100 n
+Pakket 100 n
+Koerier 100 n
+Koerier 100 n
+Maaltijdbezorging 100 n
+Maaltijdbezorging 100 n
+Bezorger 100 n
+Bezorger 100 n
+Rondhangen 100 n
+Vallen 100 n
+Vreemdeling 100 n
+Bekend persoon 100 n
+Ouderen 100 n
+Ouderen 100 n
+Ouderen 100 n
+Ouderen 100 n
+Man 100 n
+Man 100 n
+Abnormaal gedrag 100 n
+Vallen 100 n
+Auto 100 n
+Voertuig 100 n
+Voertuigdetectie 100 n
+Oversteken 100 n
+Stap eroverheen 100 n
+In het water vallen 100 n
+Vlam 100 n
+Branddetectie 100 n
+Toegang 100 n
+toegang tot het gebied 100 n
+Verlaten 100 n
+uitgang 100 n
+scènewisseling 100 n
+Detectie van scènewisseling 100 n
+Overheen klimmen 100 n
+Kat 100 n
+Kat 100 n
+Hond 100 n
+Haarloos 100 n
+Zwart 100 n
+Wit 100 n
+Bruin 100 n
+Oranje 100 n
+Grijs 100 n
+Meerkleurig 100 n
+Tabby 100 n
+Geel 100 n
+Motorfiets 100 n
+Auto 100 n
+Pick-up 100 n
+Fiets 100 n
+Elektrische fiets 100 n
+Kentekenplaat 100 n
+Kentekenplaatinhoud 100 n
+Kenteken 100 n
+Afdekking 100 n
+Apparaatstoring 100 n
+Apparaat verplaatst 100 n
+Manipulatie gedetecteerd 100 n
+Grensoverschrijding 100 n
+Detectie van grensoverschrijding 100 n
+Lijnoverschrijding 100 n
+Sedan 100 n

@@ -1,0 +1,89 @@
+SUV 100 n
+Person 100 n
+Face 100 n
+Human body 100 n
+Human form 100 n
+Person 100 n
+Person detection 100 n
+Intrusion 100 n
+Child 100 n
+Water entry 100 n
+Package 100 n
+Package loss 100 n
+Package detection 100 n
+Region intrusion 100 n
+Missing / lost 100 n
+Middle-aged person 100 n
+Adult 100 n
+Woman 100 n
+Female 100 n
+Pet 100 n
+Pet 100 n
+Animal 100 n
+Animal 100 n
+Pet fur / coat color 100 n
+Pet detection 100 n
+Kid 100 n
+Package 100 n
+Package 100 n
+Courier 100 n
+Courier 100 n
+Food delivery 100 n
+Food delivery 100 n
+Delivery person 100 n
+Delivery person 100 n
+Loitering 100 n
+Fall 100 n
+Stranger 100 n
+Familiar person 100 n
+Elderly 100 n
+Elderly 100 n
+Elderly person 100 n
+Elderly person 100 n
+Male 100 n
+Man 100 n
+Abnormal behavior 100 n
+Fall 100 n
+Car 100 n
+Vehicle 100 n
+Vehicle detection 100 n
+Cross 100 n
+Step over 100 n
+Falling into water 100 n
+Flame 100 n
+Fire detection 100 n
+Enter 100 n
+area entry 100 n
+Leave 100 n
+area exit 100 n
+scene change 100 n
+Scene change detection 100 n
+Climb over 100 n
+Cat 100 n
+Cat 100 n
+Dog 100 n
+Hairless 100 n
+Black 100 n
+White 100 n
+Brown 100 n
+Orange 100 n
+Grey 100 n
+Multi-color 100 n
+Tabby 100 n
+Yellow 100 n
+Motorcycle 100 n
+Car 100 n
+Pickup truck 100 n
+Bicycle 100 n
+Electric bicycle 100 n
+License plate 100 n
+License plate content 100 n
+License plate number 100 n
+Occlusion 100 n
+Device fault 100 n
+Device moved 100 n
+Tampering detected 100 n
+Boundary crossing 100 n
+Boundary crossing detection 100 n
+Line crossing 100 n
+Sedan 100 n
